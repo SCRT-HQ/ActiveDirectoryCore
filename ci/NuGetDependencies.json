@@ -1,0 +1,6 @@
+[{
+    "Name": "Novell.Directory.Ldap.NETStandard.dll",
+    "BaseName": "Novell.Directory.Ldap.NETStandard",
+    "Target": "latest",
+    "LatestVersion": "3.0.3"
+}]

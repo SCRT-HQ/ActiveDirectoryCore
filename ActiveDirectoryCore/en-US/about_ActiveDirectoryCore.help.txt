@@ -1,0 +1,8 @@
+TOPIC
+    about_ActiveDirectoryCore
+
+SHORT DESCRIPTION
+    An overview of the ActiveDirectoryCore module and its various components and concepts.
+
+LONG DESCRIPTION
+    TODO - Add content
