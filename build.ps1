@@ -41,6 +41,7 @@ $helperUri = @(
 ) -join '/'
 $fileUri = $helperUri -replace "[$([RegEx]::Escape("$(([System.IO.Path]::GetInvalidFileNameChars() + [System.IO.Path]::GetInvalidPathChars()) -join '')"))]","_"
 $localGistPath = [System.IO.Path]::Combine($PSScriptRoot,'ci',$fileUri)
+Get-ChildItem (Join-Path $PSScriptRoot 'ci') -Filter 'https*' | Where-Object {$_.FullName -ne $localGistPath} | Remove-Item -Force
 if (Test-Path $localGistPath) {
     Write-Host -ForegroundColor Cyan "##[section] Importing Azure Pipelines Helper from Cached Gist: $localGistPath"
     $helperContent = Get-Content $localGistPath -Raw
