@@ -12,7 +12,7 @@
     RootModule           = 'ActiveDirectoryCore.psm1'
 
     # Version number of this module.
-    ModuleVersion        = '0.1.0'
+    ModuleVersion        = '0.1.0.20200331'
 
     # Supported PSEditions
     CompatiblePSEditions = @('Desktop','Core')

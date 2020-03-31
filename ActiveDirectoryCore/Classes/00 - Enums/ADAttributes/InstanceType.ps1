@@ -1,5 +1,4 @@
 # https://docs.microsoft.com/en-us/windows/win32/adschema/a-instancetype
-
 [Flags()]
 enum instanceType : uint {
     HeadOfNamingContext           = 0x01

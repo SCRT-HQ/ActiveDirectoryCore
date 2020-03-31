@@ -11,5 +11,5 @@ enum msPKICertificateNameFlag : uint {
     SubjectRequireDnsAsCN            = 0x10000000
     SubjectRequireEmail              = 0x20000000
     SubjectRequireCommonName         = 0x40000000
-    SubjectRequireDirectoryPath      = 0x80000000
+    SubjectRequireDirectoryPath      = 0x80000000u
 }

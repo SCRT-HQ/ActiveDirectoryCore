@@ -9,7 +9,7 @@ class ADObject {
         }
     }
 
-    hidden [void] ADObject([object] $PropertySet) {
+    ADObject([object] $PropertySet) {
         foreach ($property in $PropertySet) {
             $this.AddNoteProperty()
         }

@@ -10,5 +10,5 @@ enum systemFlags : uint {
     CanBeMovedWithRestrictions = 0x10000000
     CanBeMoved                 = 0x20000000
     CanBeRenamed               = 0x40000000
-    CannotBeDeleted            = 0x80000000
+    CannotBeDeleted            = 0x80000000u
 }

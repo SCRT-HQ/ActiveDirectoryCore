@@ -37,12 +37,12 @@ class SID : IEquatable[Object] {
         [Array]::Reverse($identifierAuthorityBytes)
         $this.identifierAuthority = [BitConverter]::ToUInt64($identifierAuthorityBytes)
 
-        $this.subAuthorities = for ($i = 0; $i -lt ($subAuthorityCount * 4); $i += 4) {
+        $this.subAuthorities = for ($i = 8; $i -lt 8 + ($subAuthorityCount * 4); $i += 4) {
             [BitConverter]::ToUInt32([byte[]](
-                $sidBytes[$i + 3],
-                $sidBytes[$i + 2],
+                $sidBytes[$i],
                 $sidBytes[$i + 1],
-                $sidBytes[$i]
+                $sidBytes[$i + 2],
+                $sidBytes[$i + 3]
             ))
         }
 
@@ -55,7 +55,6 @@ class SID : IEquatable[Object] {
             $accountDomainSidBytes = [byte[]]::new($this.BinaryLength - 4)
             [Array]::Copy(
                 $sidBytes,
-                0,
                 $accountDomainSidBytes,
                 $accountDomainSidBytes.Count
             )

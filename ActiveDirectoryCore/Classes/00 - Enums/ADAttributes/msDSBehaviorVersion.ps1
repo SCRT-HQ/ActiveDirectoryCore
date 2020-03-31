@@ -1,5 +1,4 @@
 # https://docs.microsoft.com/en-us/windows/win32/adschema/a-msds-behavior-version#windows-server-2012
-
 enum msDSBehaviorVersion : uint {
     Windows2000
     Windows2003Mixed
