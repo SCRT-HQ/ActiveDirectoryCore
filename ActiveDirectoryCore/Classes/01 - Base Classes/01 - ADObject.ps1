@@ -65,8 +65,8 @@ class ADObject {
                     return $true
                 }
                 { $_ -in 'Unicode', 'OID' } {
-                    $converted.Value = foreach ($byteArray in $attribute.ByteValueArray) {
-                        [System.Text.Encoding]::UTF8.GetString($byteArray)
+                    $converted.Value = foreach ($string in $attribute.StringValueArray) {
+                        $string
                     }
                     return $true
                 }
