@@ -6,6 +6,7 @@ class ADObject {
     )
 
     hidden static [hashtable] $AttributeSyntax
+    hidden static [System.Globalization.CultureInfo] $Culture = (Get-Culture)
 
     [string]   $Name
     [string]   $DistinguishedName
@@ -62,6 +63,24 @@ class ADObject {
                         $converted.Value = [BitConverter]::"$method"($attribute.ByteValue, 0)
                     }
                     $converted.Value = $attribute.ByteValue
+                    return $true
+                }
+                'GeneralizedTime' {
+                    $date = [DateTime]::UtcNow
+                    $parseResult = [DateTime]::TryParseExact(
+                        $attribute.StringValue,
+                        'yyyyMMddHHmmss.f"Z"',
+                        [ADObject]::Culture,
+                        [System.Globalization.DateTimeStyles]::AssumeUniversal,
+                        [ref]$date
+                    )
+                    if ($parseResult) {
+                        $converted.Value = $date
+                        return $true
+                    }
+                }
+                'LargeInteger' {
+                    $converted.Value = $attribute.StringValue -as [UInt64]
                     return $true
                 }
                 { $_ -in 'Unicode', 'OID' } {
