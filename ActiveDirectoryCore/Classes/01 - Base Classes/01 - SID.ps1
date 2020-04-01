@@ -3,21 +3,18 @@ class SID : IEquatable[Object] {
     [string] $AccountDomainSid
     [string] $Value
 
-    [byte] $revisionLevel
-    [IdentifierAuthority] $identifierAuthority
-    [uint[]] $subAuthorities
+    hidden [byte] $revisionLevel
+    hidden [IdentifierAuthority] $identifierAuthority
+    hidden [uint[]] $subAuthorities
 
+    # Create an instance of SID from a string
     SID([string] $sidString) {
-        $null, $this.RevisionLevel, $this.identifierAuthority, $this.subAuthorities = $sidString -split '-'
-        $this.BinaryLength = 8 + ($this.subAuthorities.Count * 4)
-        $this.Value = $this.ToString()
+        $this.ConvertFromString($sidString)
+    }
 
-        if ($this.subAuthorities.Count -eq 4) {
-            $this.AccountDomainSid = $sidString
-        }
-        elseif ($this.subAuthorities.Count -gt 4) {
-            $this.AccountDomainSid = $sidString -replace '-\d+$'
-        }
+    # Create an instance of SID from the SecurityIdentifier class
+    SID([System.Security.Principal.SecurityIdentifier]$securityIdentifier) {
+        $this.ConvertFromString($securityIdentifier.ToString())
     }
 
     SID([byte[]] $sidBytes) {
@@ -63,7 +60,21 @@ class SID : IEquatable[Object] {
         }
     }
 
-    [byte[]] GetBinaryForm() {
+    hidden ConvertFromString([string] $sidString) {
+        $null, $this.RevisionLevel, $this.identifierAuthority, $this.subAuthorities = $sidString -split '-'
+        $this.BinaryLength = 8 + ($this.subAuthorities.Count * 4)
+        $this.Value = $this.ToString()
+
+        if ($this.subAuthorities.Count -eq 4) {
+            $this.AccountDomainSid = $sidString
+        }
+        elseif ($this.subAuthorities.Count -gt 4) {
+            $this.AccountDomainSid = $sidString -replace '-\d+$'
+        }
+    }
+
+    # Return the security identifier as a byte array.
+    [byte[]] ToBinary() {
         $sidBytes = [byte[]]::new($this.BinaryLength)
         $sidBytes[0] = $this.revisionLevel
         $sidBytes[1] = $this.subAuthorities.Count

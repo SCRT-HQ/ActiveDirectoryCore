@@ -18,7 +18,7 @@ function Get-ADCObject {
     .PARAMETER LdapFilter
     Specifies an LDAP query string that is used to filter Active Directory objects. You can use this parameter to run your existing LDAP queries. The Filter parameter syntax supports the same functionality as the LDAP syntax.
 
-    .PARAMETER Properties
+    .PARAMETER Property
     Specifies the properties of the output object to retrieve from the server. Use this parameter to retrieve properties that are not included in the default set.
 
     Specify properties for this parameter as a comma-separated list of names. To display all of the attributes that are set on the object, specify * (asterisk).
@@ -88,118 +88,85 @@ function Get-ADCObject {
         [Alias('sAMAccountName','DistinguishedName','SID')]
         [object]
         $Identity,
+
         [Parameter(Mandatory, ValueFromPipeline, ValueFromPipelineByPropertyName, Position = 0, ParameterSetName = 'LdapFilter')]
         [string]
         $LdapFilter,
+
         [Parameter()]
-        [Alias('Property')]
+        [Alias('Properties')]
         [string[]]
-        $Properties,
+        $Property = [ADObject]::DefaultProperties,
+
         [Parameter()]
         [string]
         $SearchBase,
+
         [Parameter()]
-        [ValidateSet('Base', 'OneLevel', 'SubTree')]
-        [string]
-        $SearchScope = 'SubTree',
+        [SearchScope]
+        $SearchScope = 'Subtree',
+
         [Parameter(Position = 1)]
         [pscredential]
         $Credential = $script:ActiveDirectoryCore.Credential,
+
         [Parameter(Position = 2)]
         [string]
         $Server = $script:ActiveDirectoryCore.Server,
+
         [Parameter(Position = 2)]
         [int]
         $Port = $script:ActiveDirectoryCore.Port
     )
+
     Begin {
-        $props = @(
-            'DistinguishedName'
-            'Enabled'
-            'GivenName'
-            'Name'
-            'ObjectClass'
-            'ObjectGUID'
-            'ObjectSID'
-            'SamAccountName'
-            'Surname'
-            'UserPrincipalName'
-        )
-        if ($PSBoundParameters.ContainsKey('Properties')) {
-            $props += $Properties
-        }
         try {
-            if ($null -eq $script:ActiveDirectoryCore.Connection) {
-                $ldap = [LdapConnection]::new()
-                $ldap.Connect($Server, $Port)
-                $ldap.Bind($Credential.UserName, $Credential.GetNetworkCredential().Password)
-                $script:ActiveDirectoryCore.Connection = $ldap.Clone()
-                $script:ActiveDirectoryCore.Credential = $Credential
-                $script:ActiveDirectoryCore.Server = $Server
-                $script:ActiveDirectoryCore.Port = $Port
-            }
-            else {
-                $ldap = $script:ActiveDirectoryCore.Connection.Clone()
-            }
+            $ldap = Connect-ADCServer -Server $Server -Port $Port -Credential $Credential
         }
         catch {
-            if ($ldap -and $ldap.Connected) {
-                $ldap.Disconnect()
-            }
             $PSCmdlet.ThrowTerminatingError($_)
         }
-        $scope = switch ($SearchScope) {
-            Base {
-                [LdapConnection]::ScopeBase
-            }
-            OneLevel {
-                [LdapConnection]::ScopeOne
-            }
-            SubTree {
-                [LdapConnection]::ScopeSub
-            }
+
+        # Ensure Property contains only unique entries
+
+        $unique = [System.Collections.Generic.HashSet[string]]::new([System.StringComparer]::OrdinalIgnoreCase)
+        foreach ($name in $Property) {
+            $null = $unique.Add($name)
         }
+        $Property = $unique
     }
+
     Process {
-        $ldapFil = switch ($PSCmdlet.ParameterSetName) {
-            Identity {
-                "(sAMAccountName=$Identity)"
-            }
-            LdapFilter {
-                $LdapFilter
-            }
+        if ($PSCmdlet.ParameterSetName -eq 'Identity') {
+            $LdapFilter = "(sAMAccountName=$Identity)"
         }
-        Write-Verbose "Searching with LDAP filter: $ldapFil"
-        [LdapSearchQueue]$queue = $ldap.Search($SearchBase, $scope, $ldapFil, $props, $false, $null, $null)
+
+        Write-Verbose "Searching with LDAP filter: $LdapFilter"
+        [LdapSearchQueue]$queue = $ldap.Search(
+            $SearchBase,
+            [int]$SearchScope,
+            $LdapFilter,
+            $Property,
+            $false,
+            $null,
+            $null
+        )
         while ([LdapMessage]$message = $queue.GetResponse()) {
             if ($message -is [LdapSearchResult]) {
-                [LdapEntry]$entry = $message.Entry
-                $user = @{distinguishedName = $entry.DN }
-                [LdapAttributeSet]$atts = $entry.GetAttributeSet()
-                $atts.GetEnumerator() | ForEach-Object {
-                    [LdapAttribute]$att = $_
-                    $attVal = if ($att.Name -match '(certificate|objectSid|objectGUID|mSMQDigests)') {
-                        $att.ByteValue
-                    }
-                    elseif ($att.Name -match '(memberOf|directReports|msDS-AuthenticatedAtDC|dSCorePropagationData|otherIpPhone|otherTelephone)') {
-                        $att.StringValues
-                    }
-                    else {
-                        $att.StringValue
-                    }
-                    $user[$(Convert-AttributeCase -Name $att.Name)] = $attVal
+                Write-Debug ('Converting {0}' -f $message.Entry.DN)
+
+                $objectClass = switch ($message.Entry.GetAttribute('objectClass').StringValueArray[-1]) {
+                    'user'     { [ADUser]; break }
+                    'computer' { [ADComputer]; break }
+                    'group'    { [ADGroup]; break }
+                    default    { [ADObject] }
                 }
-                $final = [Ordered]@{ }
-                $user.GetEnumerator() | Sort-Object Key | ForEach-Object {
-                    $final[$_.Key] = $_.Value
-                }
-                [PSCustomObject]$final
+                $objectClass::new($message.Entry, $Property)
             }
         }
     }
+
     End {
-        if ($ldap -and $ldap.Connected) {
-            $ldap.Disconnect()
-        }
+        Disconnect-ADCServer
     }
 }
