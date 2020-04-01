@@ -83,6 +83,14 @@ class ADObject {
                     $converted.Value = $attribute.StringValue -as [UInt64]
                     return $true
                 }
+                'Object' {
+                    switch ($syntax.attributeSyntax) {
+                        '2.5.5.1' {
+                            $converted.Value = $attribute.StringValueArray
+                            return $true
+                        }
+                    }
+                }
                 { $_ -in 'Unicode', 'OID' } {
                     $converted.Value = foreach ($string in $attribute.StringValueArray) {
                         $string
