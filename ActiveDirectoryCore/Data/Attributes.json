@@ -1,0 +1,5994 @@
+{
+  "frsversionguid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "documentauthor": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msdfsr-computerreference": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "createwizardext": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "schemaflagsex": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "frsfaultcondition": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-assignedauthnpolicysilobl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msds-generationid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "mswmi-creationdate": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "frstimelastconfigchange": {
+    "oMSyntax": 23,
+    "attributeSyntax": "2.5.5.11"
+  },
+  "frsmemberreferencebl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msspp-kmsids": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "dnsallowxfr": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "msds-sdreferencedomain": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "comotherprogid": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "comtreatasclassid": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "personaltitle": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "printcolor": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "uniqueidentifier": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "lastbackuprestorationtime": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "timevolchange": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "dhcpsubnets": {
+    "oMSyntax": 19,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "msauthz-lasteffectivesecuritypolicy": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mstsmanagingls4": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "garbagecollperiod": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "dnsnotifysecondaries": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-perusertrustquota": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "machinepasswordchangeinterval": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "msds-passwordreversibleencryptionenabled": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "msmqservices": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mstslicenseversion4": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ms-sql-language": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msmqroutingservice": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "acsaggregatetokenrateperuser": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "mswmi-targetclass": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "netbootanswerrequests": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "msexchhouseidentifier": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-deletedobjectlifetime": {
+    "oMSyntax": 10,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mspki-supersede-templates": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-hostserviceaccount": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "knowledgeinformation": {
+    "oMSyntax": 20,
+    "attributeSyntax": "2.5.5.4"
+  },
+  "dhcpservers": {
+    "oMSyntax": 19,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "preferreddeliverymethod": {
+    "oMSyntax": 10,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-computerallowedtoauthenticateto": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "rpcnsobjectid": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msradiusservicetype": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "samaccounttype": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "sidhistory": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.17"
+  },
+  "loginshell": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "msds-assignedauthnpolicy": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "mstsendpointtype": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "queryfilter": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-cloudextensionattribute8": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "acsmaxtokenrateperflow": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "isdefunct": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "querypoint": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "desktopprofile": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "trusttype": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "printformname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "trustauthincoming": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-perusertrusttombstonesquota": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "minpwdage": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "siteserver": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "acsmaxtokenbucketperflow": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "rpcnsinterfaceid": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-isenabled": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "mswmi-int8default": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "machinewidepolicy": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-hasmasterncs": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "ms-sql-gpsheight": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msdns-signwithnsec3": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "msds-computerauthnpolicybl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "securityidentifier": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.17"
+  },
+  "objectguid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msradius-framedinterfaceid": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "dsuiadminnotification": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msdfsr-extension": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "mstsexpiredate2": {
+    "oMSyntax": 24,
+    "attributeSyntax": "2.5.5.11"
+  },
+  "priorvalue": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-updatescript": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "defaultlocalpolicyobject": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msds-cloudextensionattribute20": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msfve-recoverypassword": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-azapplicationname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "acsmaxaggregatepeakrateperuser": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "currmachineid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "thumbnaillogo": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "trustpartner": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "intersitetopologygenerator": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "dhcptype": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "pager": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mssfu30searchattributes": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "isprivilegeholder": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msauthz-centralaccesspolicyid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.17"
+  },
+  "labeleduri": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msauthz-memberrulesincentralaccesspolicybl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "ms-sql-allowanonymoussubscription": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "shadowmin": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "frsreplicasetguid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msdfs-commentv2": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ms-sql-spx": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "acsmaxpeakbandwidthperflow": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "msdns-signatureinceptionoffset": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-serviceallowedtoauthenticatefrom": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-cloudextensionattribute14": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-keyid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "logoncount": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-phoneticdisplayname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "printpagesperminute": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-quotaamount": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "syncattributes": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "dmdlocation": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "houseidentifier": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "dsuiadminmaximum": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "otheripphone": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "revision": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-keyversionnumber": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "ms-ds-creatorsid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.17"
+  },
+  "ridsetreferences": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "machinerole": {
+    "oMSyntax": 10,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-azscopename": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "productcode": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-user-account-control-computed": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "meetingid": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "x500uniqueidentifier": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "textencodedoraddress": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ismemberofpartialattributeset": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "siteguid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "efspolicy": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "grouppriority": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "linktracksecret": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-azapplicationdata": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "gpcwqlfilter": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "seqnotification": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mstpm-tpminformationforcomputerbl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "initialauthoutgoing": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-cloudextensionattribute4": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ms-sql-allowimmediateupdatingsubscription": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "addresstype": {
+    "oMSyntax": 20,
+    "attributeSyntax": "2.5.5.4"
+  },
+  "servicebindinginformation": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-localeffectivedeletiontime": {
+    "oMSyntax": 24,
+    "attributeSyntax": "2.5.5.11"
+  },
+  "templateroots2": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "operatingsystemhotfix": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-sitename": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ms-sql-database": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "entryttl": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-maximumpasswordage": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "msdns-nsec3hashalgorithm": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "usersmimecertificate": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msimaging-thumbprinthash": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "terminalserver": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "mspki-private-key-flag": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msmqqueuequota": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-registeredusers": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msmqusersid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "ipsecname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ldapadminlimits": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "sdrightseffective": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "meetinglocation": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "tokengroupsglobalanduniversal": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.17"
+  },
+  "msds-replvaluemetadataext": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-azscripttimeout": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msdfsr-options": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "extendedcharsallowed": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "ms-sql-tcpip": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "pwdproperties": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msauthz-proposedsecuritypolicy": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msdfs-propertiesv2": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-cloudanchor": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "bytesperminute": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "ms-sql-name": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "packagetype": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msdfsr-computerreferencebl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "sitelist": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "mssfu30masterservername": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-phoneticlastname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mswmi-stringvalidvalues": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "netbootmachinefilepath": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msradiusframedipaddress": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mssfu30posixmember": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "mstsmanagingls3": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-alloweddnssuffixes": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "nameserviceflags": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "lastlogontimestamp": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "rangelower": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "optionslocation": {
+    "oMSyntax": 19,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "msimaging-pspstring": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "printmemory": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "ms-sql-type": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-managedpasswordid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "keywords": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "rpcnspriority": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msmqqmid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "whencreated": {
+    "oMSyntax": 24,
+    "attributeSyntax": "2.5.5.11"
+  },
+  "physicallocationobject": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "mstsworkdirectory": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-ispartialreplicafor": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msmqbasepriority": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msmqinterval1": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "printattributes": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "netbootserver": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msradius-savedframedinterfaceid": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "msds-azobjectguid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "remotestorageguid": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mssfu30keyvalues": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "pkienrollmentaccess": {
+    "oMSyntax": 66,
+    "attributeSyntax": "2.5.5.15"
+  },
+  "remotesource": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-ingressclaimstransformationpolicy": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "roottrust": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "previousparentca": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "employeenumber": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msieee80211-id": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "bridgeheadserverlistbl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "mswmi-parm3": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "unstructuredaddress": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-nc-ro-replica-locations": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "st": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msdfsr-dfslinktarget": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mswmi-genus": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msmqinterval2": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "usnsource": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "mstshomedrive": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-revealedusers": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.7"
+  },
+  "meetingprotocol": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ms-sql-registeredowner": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "dynamicldapserver": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "mstsmanagingls": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-devicephysicalids": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msdns-nsec3optout": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "ms-sql-allowknownpullsubscription": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "comment": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-claimisvaluespacerestricted": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "maxpwdage": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "shadowinactive": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "superscopedescription": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "admindisplayname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "systemflags": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-tasksforazrole": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "ipserviceprotocol": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "msds-memberoftransitive": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "printername": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "photo": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-secondarykrbtgtnumber": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "minpwdlength": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "printstatus": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "repluptodatevector": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-azbizrule": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-computersid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.17"
+  },
+  "modifiedcountatlastprom": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "isdeleted": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "msds-ncreplcursors": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msmqqueuenameext": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "meetingblob": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msradiuscallbacknumber": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "attributesyntax": {
+    "oMSyntax": 6,
+    "attributeSyntax": "2.5.5.2"
+  },
+  "msds-usnlastsyncsuccess": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "intersitetopologyfailover": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "buildingname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "localpolicyreference": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "frscontrolinboundbacklog": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msrassavedframedipaddress": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msmqqueuejournalquota": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mspki-cert-template-oid": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mskds-kdfalgorithmid": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "additionaltrustedservicenames": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "dhcpmask": {
+    "oMSyntax": 19,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "dsasignature": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "ownerbl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "oeminformation": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "machinearchitecture": {
+    "oMSyntax": 10,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-serviceauthnpolicybl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "mspki-oid-user-notice": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msmqsigncertificatesmig": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "wbempath": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msdfs-targetlistv2": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-minimumpasswordlength": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-optionalfeatureguid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-preferred-gc-site": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "mssfu30maxuidnumber": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "replpropertymetadata": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "mstslsproperty01": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "pkikeyusage": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-neverrevealgroup": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msds-keyapproximatelastlogontimestamp": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "msdfsr-rootsizeinmb": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "mstsreconnectionaction": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "mskds-rootkeydata": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-tasksforazrolebl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "mspki-minimal-key-size": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-sourceobjectdn": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "subschemasubentry": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msds-bytearray": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "rpcnsbindings": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-krbtgtlinkbl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "linkid": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mswmi-intvalidvalues": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msmqsiteforeign": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "msds-expirepasswordsonsmartcardonlyaccounts": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "msrassavedframedroute": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "acsrsvplogfileslocation": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "replinterval": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "ms-sql-build": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "assetnumber": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "notificationlist": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "pwdlastset": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "nonsecuritymemberbl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msds-devicetrusttype": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "lastsettime": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "meetingowner": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-deviceostype": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msdfsr-options2": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msrrasvendorattributeentry": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-azlastimportedbizrulepath": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "accountexpires": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "dnshostname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msdfs-ttlv2": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "printduplexsupported": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "mstsprimarydesktop": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msds-userallowedtoauthenticatefrom": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-site-affinity": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-assignedauthnpolicybl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "ms-ds-replicatesncreason": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.7"
+  },
+  "currentlocation": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "mstsmaxconnectiontime": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-lastfailedinteractivelogontime": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "wwwhomepage": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msmqdigests": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msmqdependentclientservice": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "categoryid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "defaultsecuritydescriptor": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "meetingbandwidth": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "systemonly": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "mswmi-author": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-keyprincipalbl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "info": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msmqcspname": {
+    "oMSyntax": 20,
+    "attributeSyntax": "2.5.5.4"
+  },
+  "ipsecid": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-keyprincipal": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msds-entry-time-to-die": {
+    "oMSyntax": 24,
+    "attributeSyntax": "2.5.5.11"
+  },
+  "acsrsvpaccountfileslocation": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-ncreploutboundneighbors": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "othermailbox": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-additionalsamaccountname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "printmediaready": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "dsuishellmaximum": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-nctype": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "ms-sql-allowqueuedupdatingsubscription": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "logonworkstation": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "creationwizard": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "permsgdialogdisplaytable": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "attributecertificateattribute": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "ms-sql-thirdparty": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "msds-shadowprincipalsid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.17"
+  },
+  "otherhomephone": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "usersharedfolderother": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "helpfilename": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "repltopologystayofexecution": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "acspriority": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "facsimiletelephonenumber": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "frsworkingpath": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "shadowexpire": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mstpm-ownerinformationtemp": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "dmdname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-claimvaluetype": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "unixuserpassword": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msmqsites": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "creationtime": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "searchguide": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-tokengroupnamesglobalanduniversal": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "authorityrevocationlist": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "remotesourcetype": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-nonmembers": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msmqservicetype": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "schemaupdate": {
+    "oMSyntax": 24,
+    "attributeSyntax": "2.5.5.11"
+  },
+  "msds-authenticatedatdc": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "shellcontextmenu": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "department": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mssfu30ypservers": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "acsnonreservedtxlimit": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "msds-keycredentiallink": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.7"
+  },
+  "msds-userauthnpolicy": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "syncwithsid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.17"
+  },
+  "localizeddescription": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "fileextpriority": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msspp-onlinelicense": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "nextrid": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-optionalfeatureflags": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-operationsforaztaskbl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "caweburl": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "searchflags": {
+    "oMSyntax": 10,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "addressentrydisplaytable": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-azclassid": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "serverreference": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msds-operationsforaztask": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "allowedchildclasseseffective": {
+    "oMSyntax": 6,
+    "attributeSyntax": "2.5.5.2"
+  },
+  "msds-cloudextensionattribute15": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-cloudextensionattribute19": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msspp-installationid": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-externaldirectoryobjectid": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "schemaversion": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "upnsuffixes": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "samdomainupdates": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "mstsremotecontrol": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-retiredreplncsignatures": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "ms-sql-namedpipe": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "usncreated": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "objectcategory": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "acstimeofday": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-userallowedtoauthenticateto": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "moniker": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "location": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-failedinteractivelogoncountatlastsuccessfullogon": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "acsmaxsizeofrsvpaccountfile": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "userpkcs12": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "maxstorage": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "foreignidentifier": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "portname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-serviceallowedntlmnetworkauthentication": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "priority": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "x121address": {
+    "oMSyntax": 18,
+    "attributeSyntax": "2.5.5.6"
+  },
+  "usersharedfolder": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "badpwdcount": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "telephonenumber": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msdfs-namespaceidentityguidv2": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "ms-sql-applications": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-servicetgtlifetime": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "member": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msieee80211-datatype": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "documentidentifier": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mskds-kdfparam": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-replication-notify-first-dsa-delay": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "ntpwdhistory": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-revealondemandgroup": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "classdisplayname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-objectreferencebl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "homedrive": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msrassavedcallbacknumber": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "ipserviceport": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "host": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "systemmustcontain": {
+    "oMSyntax": 6,
+    "attributeSyntax": "2.5.5.2"
+  },
+  "msdfs-linkpathv2": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "destinationindicator": {
+    "oMSyntax": 19,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "mstsexpiredate3": {
+    "oMSyntax": 24,
+    "attributeSyntax": "2.5.5.11"
+  },
+  "frsservicecommandstatus": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ridmanagerreference": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msds-promotionsettings": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "acsidentityname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "otherloginworkstations": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "sn": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-geocoordinateslongitude": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "admindescription": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "proxygenerationenabled": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "msdns-signingkeydescriptors": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-devicelocation": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msds-failedinteractivelogoncount": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "serviceclassid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-devicedn": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "remoteservername": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "servicednsname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msauthz-effectivesecuritypolicy": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-claimsource": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-cloudextensionattribute12": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msmqtransactional": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "msdns-parenthassecuredelegation": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "msmqforeign": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "lastcontentindexed": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "operatingsystemservicepack": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "trustposixoffset": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "masteredby": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "iscriticalsystemobject": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "isephemeral": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "acseventloglevel": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "controlaccessrights": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-usertgtlifetime": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "msds-isusercachableatrodc": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mssfu30keyattributes": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "upgradeproductcode": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "domaincrossref": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "optiondescription": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msmqprivacylevel": {
+    "oMSyntax": 10,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msmqlonglived": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "netbootinitialization": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msmqnt4stub": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "ms-sql-publisher": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "governsid": {
+    "oMSyntax": 6,
+    "attributeSyntax": "2.5.5.2"
+  },
+  "msds-approx-immed-subordinates": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mskds-domainid": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "serviceinstanceversion": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "ms-sql-vines": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ms-sql-informationdirectory": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "dnsroot": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "certificaterevocationlist": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "mstpm-tpminformationforcomputer": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "lockouttime": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "builtinmodifiedcount": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "extendedattributeinfo": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "pkicriticalextensions": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "applicationname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ms-sql-memory": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "haspartialreplicancs": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "mssfu30netgroupuseratdomain": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "msdfsr-memberreference": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msmq-multicastaddress": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ipsecfilterreference": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "localeid": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "ipsecnegotiationpolicytype": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "acstotalnoofflows": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-revealedlistbl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msradius-savedframedipv6route": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "comuniquelibid": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ridnextrid": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msmqsite1": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msdfsr-readonly": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "msdns-propagationtime": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "ms-sql-informationurl": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mstsconnectclientdrives": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "meetinglanguage": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "notes": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msdrm-identitycertificate": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "acsnonreservedtokensize": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "nonsecuritymember": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msds-cloudextensionattribute2": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "prefixmap": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msiscriptpath": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "generationqualifier": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-ismanaged": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "msdfsr-ondemandexclusionfilefilter": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "possibleinferiors": {
+    "oMSyntax": 6,
+    "attributeSyntax": "2.5.5.2"
+  },
+  "adminpropertypages": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "documentversion": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msdns-issigned": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "priorsettime": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "marshalledinterface": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-spnsuffixes": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mssfu30mapfilter": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "frsextensions": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "rpcnstransfersyntax": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "lockoutobservationwindow": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "ipsecisakmpreference": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "supportedapplicationcontext": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-intid": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "dbcspwd": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "macaddress": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "meetingendtime": {
+    "oMSyntax": 23,
+    "attributeSyntax": "2.5.5.11"
+  },
+  "mstsendpointplugin": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "minticketage": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "msmqencryptkey": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "lsacreationtime": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "employeetype": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "dnreferenceupdate": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "mspki-ra-application-policies": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "domainpolicyobject": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "mswmi-normalizedclass": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "uascompat": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "printlanguage": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "flags": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mspki-oidlocalizedname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mswmi-targetpath": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "addressbookroots": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msdfsr-ondemandexclusiondirectoryfilter": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ipsecpolicyreference": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "hasmasterncs": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "ms-sql-location": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "printmaxcopies": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "rpcnscodeset": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "caconnect": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msdns-rfc5011keyrollovers": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "instancetype": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-cloudextensionattribute13": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "memberof": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "acsnonreservedminpolicedsize": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "msmqownerid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-authnpolicysilomembers": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "otherwellknownobjects": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.7"
+  },
+  "catalogs": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-replvaluemetadata": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "acsallocablersvpbandwidth": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "transportaddressattribute": {
+    "oMSyntax": 6,
+    "attributeSyntax": "2.5.5.2"
+  },
+  "msimaging-pspidentifier": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msdfsr-version": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-claimsourcetype": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-claimsharespossiblevalueswith": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "usnintersite": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "helpdata32": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "mspki-certificate-policy": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "drink": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-geocoordinatesaltitude": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "mssfu30name": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "roomnumber": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "dhcpranges": {
+    "oMSyntax": 19,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "meetingdescription": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "originaldisplaytable": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-resultantpso": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msds-iscompliant": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "msds-azgenericdata": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "extracolumns": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msmqcomputertype": {
+    "oMSyntax": 20,
+    "attributeSyntax": "2.5.5.4"
+  },
+  "lmpwdhistory": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "netbootnewmachinenamingpolicy": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "attributeid": {
+    "oMSyntax": 6,
+    "attributeSyntax": "2.5.5.2"
+  },
+  "birthlocation": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "posssuperiors": {
+    "oMSyntax": 6,
+    "attributeSyntax": "2.5.5.2"
+  },
+  "groupmembershipsam": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "serialnumber": {
+    "oMSyntax": 19,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "cacertificate": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "uidnumber": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "frslevellimit": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msmqquota": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msdfsr-priority": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "memberuid": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "msifilelist": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mstsexpiredate4": {
+    "oMSyntax": 24,
+    "attributeSyntax": "2.5.5.11"
+  },
+  "dhcpproperties": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msdns-dnskeyrecords": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "printseparatorfile": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "rpcnsgroup": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ms-ds-machineaccountquota": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mswmi-parm2": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ms-net-ieee-8023-gp-policyguid": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "legacyexchangedn": {
+    "oMSyntax": 20,
+    "attributeSyntax": "2.5.5.4"
+  },
+  "msds-logontimesyncinterval": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-requiredforestbehaviorversion": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "acsmaxnoofaccountfiles": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "frsreplicasettype": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-drsfarmid": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msimaging-hashalgorithm": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-externalkey": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "co": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "cost": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mscom-userlink": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "dhcpuniquekey": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "showinadvancedviewonly": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "uniquemember": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msds-userallowedntlmnetworkauthentication": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "frscontroldatacreation": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mskds-createtime": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "omtindxguid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "usndsalastobjremoved": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "printsharename": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msdfs-shortnamelinkpathv2": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "url": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "printspooling": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "maxticketage": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "netbootlocallyinstalledoses": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-tokengroupnames": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msdns-maintaintrustanchor": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "groupstoignore": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "bootparameter": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "mspki-certificate-application-policy": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "attributedisplaynames": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "addressbookroots2": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msds-azgenerateaudits": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "partialattributeset": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "mstsprimarydesktopbl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "mswmi-class": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "printowner": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "schemaidguid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "mswmi-stringdefault": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "certificatetemplates": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msmqdsservices": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "userclass": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msfve-volumeguid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-azldapquery": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-non-security-group-extra-classes": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-oidtogrouplink": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msds-keycredentiallink-bl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "acsenablersvpmessagelogging": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "acsminimumpolicedsize": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "msds-deviceid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-tasksforaztask": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msds-executescriptpassword": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "frsdirectoryfilter": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mstsconnectprinterdrives": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "proxylifetime": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "maxrenewage": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "serviceclassinfo": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "domainpolicyreference": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msds-hasdomainncs": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "carlicense": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mssfu30searchcontainer": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "iphostnumber": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "msnpsavedcallingstationid": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "lastlogon": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "msds-claimissinglevalued": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "msds-filtercontainers": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-azdomaintimeout": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "repsfrom": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "initialauthincoming": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mstpm-srkpubthumbprint": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "comtypelibid": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ms-sql-keywords": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-isfullreplicafor": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "defaultgroup": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "frsmemberreference": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msdfsr-contentsetguid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "createtimestamp": {
+    "oMSyntax": 24,
+    "attributeSyntax": "2.5.5.11"
+  },
+  "mstshomedirectory": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-membersforazrolebl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "userpassword": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-phoneticfirstname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mswmi-query": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mstsallowlogon": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "usercertificate": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-parentdistname": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "monikerdisplayname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "acspermissionbits": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "mstsproperty02": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "meetingadvertisescope": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msmqnt4flags": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "lastknownparent": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "dnsproperty": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "acspolicyname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "fromentry": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "partialattributedeletionlist": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "gpcuserextensionnames": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mssfu30cryptmethod": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "meetingname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mssfu30nsmapfieldposition": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "msds-cloudextensionattribute9": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mscom-objectid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "organizationalstatus": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msmq-recipient-formatname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msdfs-schemaminorversion": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-topquotausage": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mssfu30ordernumber": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "secretary": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "bridgeheadtransportlist": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "syncwithobject": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msdfsr-conflictpath": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mustcontain": {
+    "oMSyntax": 6,
+    "attributeSyntax": "2.5.5.2"
+  },
+  "defaultclassstore": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "meetingkeyword": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "attributesecurityguid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "uid": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "modifiedcount": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "msmqqueuetype": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "frsupdatetimeout": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "altsecurityidentities": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-externalstore": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "extendedclassinfo": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mswmi-int8validvalues": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "printkeepprintedjobs": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "isrecycled": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "msds-managedpassword": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-transformationrules": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "domaincas": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "servername": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msspp-csvlkpid": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "dhcpobjdescription": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "spnmappings": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "telexnumber": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-defaultquota": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "acsmaxnooflogfiles": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "rpcnsannotation": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msmqroutingservices": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "preferredou": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "localpolicyflags": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-tombstonequotafactor": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msspp-phonelicense": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msmqsignkey": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "superscopes": {
+    "oMSyntax": 19,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "acsmaxsizeofrsvplogfile": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "bootfile": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "msds-authenticatedtoaccountlist": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "documentpublisher": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msradius-framedipv6route": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "ntmixeddomain": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msfrs-hub-member": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "mspki-oid-cps": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "samaccountname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mscom-userpartitionsetlink": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "defaulthidingvalue": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "msnpallowdialin": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "privatekey": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-transformationrulescompiled": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "mssfu30aliases": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "gpcfunctionalityversion": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "previouscacertificates": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "ms-sql-gpslongitude": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-cloudismanaged": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "msdfsr-dfspath": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "appliesto": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-psoappliesto": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "frsstagingpath": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "retiredrepldsasignatures": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-cached-membership-time-stamp": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "mssfu30resultattributes": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-tdoegressbl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "manager": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msmqjournalquota": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "allowedattributes": {
+    "oMSyntax": 6,
+    "attributeSyntax": "2.5.5.2"
+  },
+  "mskds-usestarttime": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "superiordnsroot": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "certificateauthorityobject": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msds-managedpasswordinterval": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "serverstate": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "voltableidxguid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-alluserstrustquota": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-bridgeheadserversused": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.7"
+  },
+  "subrefs": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "causages": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "meetingstarttime": {
+    "oMSyntax": 23,
+    "attributeSyntax": "2.5.5.11"
+  },
+  "dnsallowdynamic": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "msds-serviceauthnpolicy": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "homephone": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "pkidefaultcsps": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msdns-dsrecordalgorithms": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-cloudextensionattribute6": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msdns-nsec3randomsaltlength": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "purportedsearch": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mscom-defaultpartitionlink": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msds-lastsuccessfulinteractivelogontime": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "msrrasattribute": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mswmi-mof": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-userauthnpolicybl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msds-membersofresourcepropertylistbl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "mspki-credentialroamingtokens": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.7"
+  },
+  "mstsproperty01": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "proxiedobjectname": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.7"
+  },
+  "gplink": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msdfsr-schedule": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "ridusedpool": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "currentparentca": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "addressentrydisplaytablemsdos": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msmqdependentclientservices": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "netbootallownewclients": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "msds-managedpasswordpreviousid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "printnotify": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ipprotocolnumber": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msdfsr-commonstagingsizeinmb": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "postofficebox": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "lockoutthreshold": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-phoneticdepartment": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "printstaplingsupported": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "msds-principalname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "businesscategory": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-revealeddsas": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "ms-sql-lastdiagnosticdate": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "middlename": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msmqjournal": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "mstsmanagingls2": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-assignedauthnpolicysilo": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msds-aztaskisroledefinition": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "printmaxxextent": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-security-group-extra-classes": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "querypolicybl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "documenttitle": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mskds-version": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "pkiextendedkeyusage": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "uncname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-azoperationid": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "netboottools": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "initials": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "associatedname": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "ms-ds-consistencychildcount": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "siteobjectbl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "o": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msdfsr-mindurationcacheinmin": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "implementedcategories": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-cloudextensionattribute17": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-appliestoresourcetypes": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msnpcalledstationid": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "mskds-secretagreementparam": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "trustattributes": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "meetingcontactinfo": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ms-sql-alias": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-oidtogrouplinkbl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "printstarttime": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "signaturealgorithms": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msspp-issuancelicense": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "treatasleaf": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "mstapi-ipaddress": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "documentlocation": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "netbootduid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msmqversion": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "ms-net-ieee-80211-gp-policydata": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "options": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "rpcnsprofileentry": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "versionnumberlo": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-integer": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msdfsr-deletedsizeinmb": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "contextmenu": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "contentindexingallowed": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "mswmi-targettype": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "codepage": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-claimtypeappliestoclass": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "mswmi-targetnamespace": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "siteobject": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "preferredlanguage": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "objectclass": {
+    "oMSyntax": 6,
+    "attributeSyntax": "2.5.5.2"
+  },
+  "trustauthoutgoing": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "mswmi-parm4": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "company": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msmqprevsitegates": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "objectversion": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "gpcmachineextensionnames": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "netbiosname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "unicodepwd": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msradiusframedroute": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "msds-authnpolicyenforced": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "frsprimarymember": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "mstapi-conferenceblob": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "localizationdisplayid": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msfve-recoveryguid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "mswmi-intflags2": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-keyusage": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-allowedtodelegateto": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "defaultobjectcategory": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "originaldisplaytablemsdos": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "pwdhistorylength": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "meetingtype": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "printminxextent": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "maycontain": {
+    "oMSyntax": 6,
+    "attributeSyntax": "2.5.5.2"
+  },
+  "mssfu30isvalidcontainer": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-registrationquota": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "builtincreationtime": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "dnsrecord": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "employeeid": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msmqsitegates": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msds-cloudextensionattribute16": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "appschemaversion": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-azmajorversion": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-strongntlmpolicy": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-azminorversion": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "othermobile": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "displayname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "usercert": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msdfs-lastmodifiedv2": {
+    "oMSyntax": 24,
+    "attributeSyntax": "2.5.5.11"
+  },
+  "msdfs-generationguidv2": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "tokengroupsnogcacceptable": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.17"
+  },
+  "treename": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-quotaused": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "acsmaximumsdusize": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "msmqdigestsmig": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "presentationaddress": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.13"
+  },
+  "invocationid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "omobjectclass": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msdfsr-commonstagingpath": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mailaddress": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-claimattributesource": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "acsdsbmpriority": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "domainreplica": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-computerauthnpolicy": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msds-isusedasresourcesecurityattribute": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "departmentnumber": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "crlpartitionedrevocationlist": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msmqsitenameex": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-authnpolicysilomembersbl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "mspkidpapimasterkeys": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.7"
+  },
+  "objectsid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.17"
+  },
+  "creator": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mswmi-propertyname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "usnlastobjrem": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "distinguishedname": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "intersitetopologyrenew": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msdfsr-disablepacketprivacy": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "mstsmaxidletime": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "acsserverlist": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msdfsr-flags": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "primaryinternationalisdnnumber": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-phoneticcompanyname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "givenname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "anr": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "syncmembership": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "createdialog": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "associateddomain": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "msds-sourceanchor": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "meetingapplication": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mskds-privatekeylength": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mail": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "c": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "omtguid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-lockoutduration": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "msds-devicemdmstatus": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ms-sql-lastbackupdate": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "rpcnsentryflags": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mstsexpiredate": {
+    "oMSyntax": 24,
+    "attributeSyntax": "2.5.5.11"
+  },
+  "gpcfilesyspath": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "printmediasupported": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-cloudextensionattribute3": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "directreports": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msdfsr-conflictsizeinmb": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "msds-valuetypereferencebl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "rightsguid": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "acsservicetype": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mstsprofilepath": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ms-sql-characterset": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msspp-configlicense": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "ncname": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "frsservicecommand": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-requireddomainbehaviorversion": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "grouptype": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mstapi-protocolid": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "gidnumber": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "ms-sql-serviceaccount": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msieee80211-data": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-cloudissuerpubliccertificates": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "systemmaycontain": {
+    "oMSyntax": 6,
+    "attributeSyntax": "2.5.5.2"
+  },
+  "dc": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-operationsforazrole": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "dscorepropagationdata": {
+    "oMSyntax": 24,
+    "attributeSyntax": "2.5.5.11"
+  },
+  "msds-cloudextensionattribute18": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msmqcost": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "scopeflags": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "deltarevocationlist": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "ms-sql-unicodesortorder": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "displaynameprintable": {
+    "oMSyntax": 19,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "ms-net-ieee-8023-gp-policydata": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-replication-notify-subsequent-dsa-delay": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "meetingoriginator": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "frsversion": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msmqsigncertificates": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msdfsr-rootfence": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-supportedencryptiontypes": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msdfsr-maxageincacheinmin": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "netbootansweronlyvalidclients": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "ms-sql-status": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "msds-registeredowner": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-behavior-version": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mssfu30maxgidnumber": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "netbootintellimirroroses": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mstslicenseversion": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "pendingcacertificates": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "replicasource": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "privilegevalue": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "ms-sql-connectionurl": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "fsmoroleowner": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "printnetworkaddress": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "systemauxiliaryclass": {
+    "oMSyntax": 6,
+    "attributeSyntax": "2.5.5.2"
+  },
+  "msds-azscriptenginecachemax": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "pkimaxissuingdepth": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "authenticationoptions": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msfve-keypackage": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "hidefromab": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "postaladdress": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "flatname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mswmi-intdefault": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "comclsid": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mstsdefaulttomainprinter": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "packagename": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msiscriptname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-cloudextensionattribute11": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-ridpoolallocationenabled": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "mstapi-uid": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msmqinroutingservers": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "objectclasscategory": {
+    "oMSyntax": 10,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-quotatrustee": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.17"
+  },
+  "msdfsr-stagingcleanuptriggerinpercent": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "street": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "supplementalcredentials": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-ispossiblevaluespresent": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "msds-settings": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ms-sql-gpslatitude": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "servicednsnametype": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msdfsr-defaultcompressionexclusionfilter": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ditcontentrules": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msexchassistantname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "rangeupper": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-tokengroupnamesnogcacceptable": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "frsrootpath": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "netbootnewmachineou": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msdns-nsec3iterations": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-psoapplied": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "comprogid": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msmqsitename": {
+    "oMSyntax": 20,
+    "attributeSyntax": "2.5.5.4"
+  },
+  "parentca": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msds-krbtgtlink": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "operatingsystemversion": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "acsnonreservedpeakrate": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "msds-operationsforazrolebl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msds-tdoingressbl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "meetingurl": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msdns-dsrecordsetttl": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "peklist": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "schedule": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "trustdirection": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msdfsr-memberreferencebl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msds-enabledfeaturebl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "privilegedisplayname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-azapplicationversion": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "parentguid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-datetime": {
+    "oMSyntax": 24,
+    "attributeSyntax": "2.5.5.11"
+  },
+  "ms-sql-description": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-valuetypereference": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msdfs-schemamajorversion": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "rid": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mstslicenseversion2": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "serverreferencebl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "defaultpriority": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mswmi-targetobject": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "netbootmirrordatafile": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "acsmaxpeakbandwidth": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "msds-hasinstantiatedncs": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.7"
+  },
+  "domainwidepolicy": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "mswmi-id": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "printmaxresolutionsupported": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "othertelephone": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "acsminimumlatency": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "dhcpidentification": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "pekkeychangeinterval": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "printrate": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msmq-securedsource": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "msexchlabeleduri": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mscom-partitionsetlink": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msmqmigrated": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "shadowlastchange": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mspki-ra-signature": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "acsnonreservedtxsize": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "msds-geocoordinateslatitude": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "ridallocationpool": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "msdfsr-filefilter": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "policyreplicationflags": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msdfsr-stagingsizeinmb": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "title": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msdns-securedelegationpollingperiod": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mskds-publickeylength": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "ipphone": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "pktguid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "serviceprincipalname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "lockoutduration": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "msds-nc-ro-replica-locations-bl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "postalcode": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-lastknownrdn": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "admincontextmenu": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "netbootlimitclients": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "countrycode": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msiis-ftproot": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "description": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msradius-savedframedipv6prefix": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "msmqsiteid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-issuercertificates": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msdfsr-rdcenabled": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "assistant": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "l": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "printrateunit": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "rdnattid": {
+    "oMSyntax": 6,
+    "attributeSyntax": "2.5.5.2"
+  },
+  "msmqostype": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msnpcallingstationid": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "serviceclassname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-hasfullreplicancs": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "shadowmax": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "thumbnailphoto": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "unstructuredname": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "ms-sql-clustered": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "msds-localeffectiverecycletime": {
+    "oMSyntax": 24,
+    "attributeSyntax": "2.5.5.11"
+  },
+  "operatorcount": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mskds-secretagreementalgorithmid": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-membersforazrole": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "frspartnerauthlevel": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "meetingmaxparticipants": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "voltableguid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msdfsr-rootpath": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-objectsoa": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "schemainfo": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "membernisnetgroup": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "shadowwarning": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "dhcpmaxkey": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "ms-sql-lastupdateddate": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msmqauthenticate": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "msds-revealedlist": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.14"
+  },
+  "currentvalue": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "objectclasses": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "acsmaxdurationperflow": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "division": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "acsenableacsservice": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "msmqcomputertypeex": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "shellpropertypages": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mstsendpointdata": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "subclassof": {
+    "oMSyntax": 6,
+    "attributeSyntax": "2.5.5.2"
+  },
+  "mspki-certificate-name-flag": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "omsyntax": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "validaccesses": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "acsdsbmdeadtime": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "nisnetgrouptriple": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "msds-isgc": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "issinglevalued": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "mspki-site-name": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mssfu30netgrouphostatdomain": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "extensionname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "userworkstations": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "setupcommand": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "netbootmaxclients": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-cloudextensionattribute1": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "attributetypes": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "accountnamehistory": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "canonicalname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-habseniorityindex": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mswmi-changedate": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "primarygroupid": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msdfsr-deletedpath": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mspki-template-minor-revision": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mswmi-querylanguage": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mspkiaccountcredentials": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.7"
+  },
+  "msdfs-linksecuritydescriptorv2": {
+    "oMSyntax": 66,
+    "attributeSyntax": "2.5.5.15"
+  },
+  "allowedchildclasses": {
+    "oMSyntax": 6,
+    "attributeSyntax": "2.5.5.2"
+  },
+  "msds-membertransitive": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "audio": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-membersofresourcepropertylist": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msiscriptsize": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "dnssecuresecondaries": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "ou": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ntgroupmembers": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "ipnetmasknumber": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "mswmi-scopeguid": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "domainidentifier": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mswmi-name": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "friendlynames": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "domainid": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "cominterfaceid": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ms-sql-sortorder": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msiscript": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "crosscertificatepair": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "indexedscopes": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ipsecnegotiationpolicyreference": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "mspki-enrollment-servers": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-tasksforaztaskbl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "assocntaccount": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "wellknownobjects": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.7"
+  },
+  "msds-other-settings": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "unixhomedirectory": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "nextlevelstore": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "ldapdisplayname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "profilepath": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-ncreplinboundneighbors": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mstpm-ownerinformation": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "lastupdatesequence": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "dhcpsites": {
+    "oMSyntax": 19,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "msdfsr-keywords": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ipsecownersreference": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "structuralobjectclass": {
+    "oMSyntax": 6,
+    "attributeSyntax": "2.5.5.2"
+  },
+  "msds-cloudisenabled": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "acsminimumdelayvariation": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "ipsecnegotiationpolicyaction": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ms-net-ieee-8023-gp-policyreserved": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "printbinnames": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "movetreestate": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "proxyaddresses": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "registeredaddress": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "groupattributes": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "addresssyntax": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-computertgtlifetime": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "sitelinklist": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msds-claimpossiblevalues": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "oncrpcnumber": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "ms-ds-consistencyguid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "dhcpobjname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msauthz-resourcecondition": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ms-sql-contact": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "nismapname": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "msds-serviceallowedtoauthenticateto": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "publickeypolicy": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "timerefresh": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "msfrs-topology-pref": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "enabled": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "msdfs-linkidentityguidv2": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msdns-nsec3currentsalt": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-isrodc": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "helpdata16": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-passwordhistorylength": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "pkioverlapperiod": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "roleoccupant": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "pendingparentca": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msdfsr-rdcminfilesizeinkb": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "primarygrouptoken": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "ms-sql-allowsnapshotfilesftpdownloading": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "msds-approximatelastlogontimestamp": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "printcollate": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "managedby": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "scriptpath": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "printmaxyextent": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mstsmaxdisconnectiontime": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mssfu30nisdomain": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "modifytimestamp": {
+    "oMSyntax": 24,
+    "attributeSyntax": "2.5.5.11"
+  },
+  "msds-masteredby": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "meetingrecurrence": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "netbootguid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "gecos": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "owner": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msspp-csvlkpartialproductkey": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "vendor": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msmqoutroutingservers": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msdns-signingkeys": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "templateroots": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "privilegeholder": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msds-isdomainfor": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msds-allowedtoactonbehalfofotheridentity": {
+    "oMSyntax": 66,
+    "attributeSyntax": "2.5.5.15"
+  },
+  "msds-cloudextensionattribute7": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ms-sql-size": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "msds-auxiliary-classes": {
+    "oMSyntax": 6,
+    "attributeSyntax": "2.5.5.2"
+  },
+  "msds-cloudextensionattribute5": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "operatingsystem": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "frsfilefilter": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "name": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "generatedconnection": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "acsnonreservedmaxsdusize": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "logonhours": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msmqdsservice": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "frsdspoll": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "canupgradescript": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-dnsrootalias": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "shortservername": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "comclassid": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "pkiexpirationperiod": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "mscopeid": {
+    "oMSyntax": 19,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "transporttype": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "frscomputerreference": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msdfsr-enabled": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "lastlogoff": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "meetingip": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msspp-csvlkskuid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-deviceosversion": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-azbizrulelanguage": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "jpegphoto": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "dhcpupdatetime": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "dsheuristics": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msradius-framedipv6prefix": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "msds-groupmsamembership": {
+    "oMSyntax": 66,
+    "attributeSyntax": "2.5.5.15"
+  },
+  "ms-sql-publicationurl": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "printendtime": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-issuerpubliccertificates": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "acsenablersvpaccounting": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "ms-net-ieee-80211-gp-policyguid": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mspki-template-schema-version": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "pkidefaultkeyspec": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mapiid": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mswmi-int8min": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "adminmultiselectpropertypages": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "fromserver": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "mscom-partitionlink": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "ms-sql-multiprotocol": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mstssecondarydesktopbl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msdns-keymasterzones": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-userpasswordexpirytimecomputed": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "mswmi-intmax": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msmqsitegatesmig": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "querypolicyobject": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msdfsr-directoryfilter": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "privilegeattributes": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "dhcpstate": {
+    "oMSyntax": 19,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "usnchanged": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "ms-sql-appletalk": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "homedirectory": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msdfsr-tombstoneexpiryinmin": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "frscomputerreferencebl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "parentcacertificatechain": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "qualityofservice": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "frsflags": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "objectcount": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "packageflags": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "globaladdresslist2": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "requiredcategories": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-maximumregistrationinactivityperiod": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mssfu30fieldseparator": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-cloudextensionattribute10": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-enabledfeature": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "ipsecnfareference": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "meetingscope": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "printnumberup": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "iconpath": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-nc-replica-locations": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msds-authnpolicysiloenforced": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "cn": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "whenchanged": {
+    "oMSyntax": 24,
+    "attributeSyntax": "2.5.5.11"
+  },
+  "mswmi-intmin": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-minimumpasswordage": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "enrollmentproviders": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msdns-nsec3usersalt": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mstsbrokenconnectionaction": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "ridpreviousallocationpool": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "otherfacsimiletelephonenumber": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "acsdirection": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-schema-extensions": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "netbootcurrentclientcount": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "installuilevel": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "enabledconnection": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "auditingpolicy": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "driverversion": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "pkt": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "printmacaddress": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ntsecuritydescriptor": {
+    "oMSyntax": 66,
+    "attributeSyntax": "2.5.5.15"
+  },
+  "msds-quotaeffective": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "acscachetimeout": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msdfsr-replicationgrouptype": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "frsrootsecurity": {
+    "oMSyntax": 66,
+    "attributeSyntax": "2.5.5.15"
+  },
+  "ipsecdatatype": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mobile": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "versionnumberhi": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mswmi-int8max": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "categories": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "primarytelexnumber": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mswmi-intflags1": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "ipnetworknumber": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "msds-lockoutobservationwindow": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "cacertificatedn": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "printorientationssupported": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msdfsr-cachepolicy": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "internationalisdnnumber": {
+    "oMSyntax": 18,
+    "attributeSyntax": "2.5.5.6"
+  },
+  "auxiliaryclass": {
+    "oMSyntax": 6,
+    "attributeSyntax": "2.5.5.2"
+  },
+  "allowedattributeseffective": {
+    "oMSyntax": 6,
+    "attributeSyntax": "2.5.5.2"
+  },
+  "mspkiroamingtimestamp": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-nonmembersbl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "userprincipalname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "acsdsbmrefresh": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "mspki-enrollment-flag": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-lockoutthreshold": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-passwordsettingsprecedence": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "dhcpreservations": {
+    "oMSyntax": 19,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "mstsinitialprogram": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-trustforesttrustinfo": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "globaladdresslist": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "mstslsproperty02": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "dhcpoptions": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msdfsr-stagingpath": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "teletexterminalidentifier": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "mstssecondarydesktops": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msds-replicationepoch": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-replattributemetadata": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msmqlabelex": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "winsockaddresses": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-primarycomputer": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msmqnamestyle": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "mswmi-intflags4": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "showinaddressbook": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "mswmi-parm1": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "netbootscpbl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "mssfu30posixmemberof": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "mssfu30intrafieldseparator": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ipsecdata": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "physicaldeliveryofficename": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mssfu30domains": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "mspki-ra-policies": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-customkeyinformation": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-hostserviceaccountbl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "badpasswordtime": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "systemposssuperiors": {
+    "oMSyntax": 6,
+    "attributeSyntax": "2.5.5.2"
+  },
+  "nismapentry": {
+    "oMSyntax": 22,
+    "attributeSyntax": "2.5.5.5"
+  },
+  "msds-objectreference": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "frstimelastcommand": {
+    "oMSyntax": 23,
+    "attributeSyntax": "2.5.5.11"
+  },
+  "msmqsite2": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msdns-dnskeyrecordsetttl": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "trustparent": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "mspki-oid-attribute": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "meetingisencrypted": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ldapipdenylist": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "mhsoraddress": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "versionnumber": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-egressclaimstransformationpolicy": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "repsto": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "perrecipdialogdisplaytable": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "volumecount": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msspp-confirmationid": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "netbootsiffile": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ms-net-ieee-80211-gp-policyreserved": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "shadowflag": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "tombstonelifetime": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "forcelogoff": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "gpoptions": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-isprimarycomputerfor": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "lsamodifiedcount": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "crlobject": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "transportdllname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mstslicenseversion3": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "tokengroups": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.17"
+  },
+  "mswmi-classdefinition": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "seealso": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "printminyextent": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "msds-claimsharespossiblevalueswithbl": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "msauthz-memberrulesincentralaccesspolicy": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "userparameters": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "otherpager": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-additionaldnshostname": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ms-sql-version": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "mswmi-sourceorganization": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "streetaddress": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "serverrole": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "ms-sql-creationdate": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-syncserverurl": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "networkaddress": {
+    "oMSyntax": 20,
+    "attributeSyntax": "2.5.5.4"
+  },
+  "homepostaladdress": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "dnstombstoned": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "msds-deviceobjectversion": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "frscontroloutboundbacklog": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "admincount": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "managedobjects": {
+    "oMSyntax": 127,
+    "attributeSyntax": "2.5.5.1"
+  },
+  "meetingrating": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-passwordcomplexityenabled": {
+    "oMSyntax": 1,
+    "attributeSyntax": "2.5.5.8"
+  },
+  "dhcpflags": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "msds-keymaterial": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msds-maxvalues": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "drivername": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "ridavailablepool": {
+    "oMSyntax": 65,
+    "attributeSyntax": "2.5.5.16"
+  },
+  "msdfsr-replicationgroupguid": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "dhcpclasses": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "msmqlabel": {
+    "oMSyntax": 20,
+    "attributeSyntax": "2.5.5.4"
+  },
+  "msiis-ftpdir": {
+    "oMSyntax": 64,
+    "attributeSyntax": "2.5.5.12"
+  },
+  "msds-cached-membership": {
+    "oMSyntax": 4,
+    "attributeSyntax": "2.5.5.10"
+  },
+  "mswmi-intflags3": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  },
+  "useraccountcontrol": {
+    "oMSyntax": 2,
+    "attributeSyntax": "2.5.5.9"
+  }
+}

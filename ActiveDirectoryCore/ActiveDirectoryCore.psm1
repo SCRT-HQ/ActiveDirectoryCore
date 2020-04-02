@@ -10,3 +10,5 @@ $script:ActiveDirectoryCore = [PSCustomObject]@{
     Port       = 389
 }
 # PSM1 Footer
+$dataPath = Join-Path -Path $PSScriptRoot -ChildPath 'Data\Attributes.json'
+[ADObject]::AttributeSyntax = Get-Content -Path $dataPath -Raw | ConvertFrom-Json -AsHashtable
