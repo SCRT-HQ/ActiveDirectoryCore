@@ -113,11 +113,11 @@ function Get-ADCComputer {
         [pscredential]
         $Credential = $script:ActiveDirectoryCore.Credential,
 
-        [Parameter(Position = 2)]
+        [Parameter()]
         [string]
         $Server = $script:ActiveDirectoryCore.Server,
 
-        [Parameter(Position = 2)]
+        [Parameter()]
         [int]
         $Port = $script:ActiveDirectoryCore.Port
     )

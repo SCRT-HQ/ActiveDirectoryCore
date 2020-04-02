@@ -88,12 +88,12 @@ function Get-ADCUser {
     #>
     [CmdletBinding(DefaultParameterSetName = 'Identity')]
     Param(
-        [Parameter(Mandatory, ValueFromPipeline, ValueFromPipelineByPropertyName, Position = 0, ParameterSetName = 'Identity')]
+        [Parameter(Position = 0, Mandatory, ValueFromPipeline, ValueFromPipelineByPropertyName, ParameterSetName = 'Identity')]
         [Alias('sAMAccountName','DistinguishedName','SID')]
         [object]
         $Identity,
 
-        [Parameter(Mandatory, ValueFromPipeline, ValueFromPipelineByPropertyName, Position = 0, ParameterSetName = 'LdapFilter')]
+        [Parameter(Mandatory, ValueFromPipeline, ValueFromPipelineByPropertyName,ParameterSetName = 'LdapFilter')]
         [string]
         $LdapFilter,
 
@@ -114,11 +114,11 @@ function Get-ADCUser {
         [pscredential]
         $Credential = $script:ActiveDirectoryCore.Credential,
 
-        [Parameter(Position = 2)]
+        [Parameter()]
         [string]
         $Server = $script:ActiveDirectoryCore.Server,
 
-        [Parameter(Position = 2)]
+        [Parameter()]
         [int]
         $Port = $script:ActiveDirectoryCore.Port
     )

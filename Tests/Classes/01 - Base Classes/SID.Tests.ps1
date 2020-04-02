@@ -1,5 +1,5 @@
 #region:TestFileHeader
-$projectRoot = $PSScriptRoot.Substring(0, $PSScriptRoot.IndexOf('\Tests'))
+$projectRoot = $PSScriptRoot.Substring(0, $PSScriptRoot.IndexOf(([IO.Path]::DirectorySeparatorChar + "Tests")))
 $moduleName = Split-Path $projectRoot -Leaf
 $module = Join-Path -Path $projectRoot -ChildPath "BuildOutput\$moduleName\*\$moduleName.psd1" | Resolve-Path
 

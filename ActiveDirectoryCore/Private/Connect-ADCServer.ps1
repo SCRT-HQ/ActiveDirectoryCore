@@ -52,26 +52,41 @@ function Connect-ADCServer {
         [string]
         $Server = $script:ActiveDirectoryCore.Server,
 
-        [Parameter(Position = 2)]
+        [Parameter()]
         [ValidateNotNullOrEmpty()]
         [int]
-        $Port = $script:ActiveDirectoryCore.Port
+        $Port = $script:ActiveDirectoryCore.Port,
+
+        [Parameter(ValueFromRemainingArguments,Position = 0)]
+        [object]
+        $Remaining
     )
 
     try {
-        $ldap = [LdapConnection]::new()
-        $ldap.Connect($Server, $Port)
-        $ldap.Bind(
-            $Credential.UserName,
-            $Credential.GetNetworkCredential().Password
-        )
-
-        $script:ActiveDirectoryCore.Connection = $ldap
-        $ldap
+        if (
+            $null -eq $script:ActiveDirectoryCore.Connection -or
+            -not $script:ActiveDirectoryCore.Connection.Connected -or
+            $PSBoundParameters.ContainsKey('Credential') -or
+            $PSBoundParameters.ContainsKey('Server') -or
+            $PSBoundParameters.ContainsKey('Port')
+        ) {
+            $script:ActiveDirectoryCore.Connection = [LdapConnection]::new()
+            $script:ActiveDirectoryCore.Connection.Connect($Server, $Port)
+            if ($null -eq $Credential) {
+                $script:ActiveDirectoryCore.Connection.Bind()
+            }
+            else {
+                $script:ActiveDirectoryCore.Connection.Bind($Credential.UserName, $Credential.GetNetworkCredential().Password)
+                $script:ActiveDirectoryCore.Credential = $Credential
+            }
+            $script:ActiveDirectoryCore.Server = $Server
+            $script:ActiveDirectoryCore.Port = $Port
+        }
+        $script:ActiveDirectoryCore.Connection.Clone()
     }
     catch {
-        if ($ldap -and $ldap.Connected) {
-            $ldap.Disconnect()
+        if ($script:ActiveDirectoryCore.Connection -and $script:ActiveDirectoryCore.Connection.Connected) {
+            $script:ActiveDirectoryCore.Connection.Disconnect()
         }
         $PSCmdlet.ThrowTerminatingError($_)
     }

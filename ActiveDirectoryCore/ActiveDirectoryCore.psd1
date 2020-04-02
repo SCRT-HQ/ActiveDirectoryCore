@@ -15,7 +15,7 @@
     ModuleVersion        = '0.1.0'
 
     # Supported PSEditions
-    CompatiblePSEditions = @('Desktop','Core')
+    CompatiblePSEditions = @('Desktop', 'Core')
 
     # ID used to uniquely identify this module
     GUID                 = 'f848bcaa-2804-48b9-bfc0-07be8b18a220'
@@ -33,7 +33,7 @@
     Description          = "ActiveDirectoryCore is a cross-platform PowerShell module for Active Directory and LDAP administration."
 
     # Minimum version of the Windows PowerShell engine required by this module
-    PowerShellVersion    = '5.1.0'
+    PowerShellVersion    = '7.0.0'
 
     # Name of the Windows PowerShell host required by this module
     # PowerShellHostName = ''
@@ -51,7 +51,7 @@
     # ProcessorArchitecture = ''
 
     # Modules that must be imported into the global environment prior to importing this module
-    RequiredModules      = @('Configuration')
+    RequiredModules      = @(@{ModuleName = "Configuration"; ModuleVersion = "1.3.1" })
 
     # Assemblies that must be loaded prior to importing this module
     # RequiredAssemblies = @()
@@ -95,7 +95,7 @@
         PSData = @{
 
             # Tags applied to this module. These help with module discovery in online galleries.
-            Tags         = @('LDAP','ActiveDirectory','Core','CrossPlatform','xplat','Windows','Mac','Linux')
+            Tags         = @('LDAP', 'ActiveDirectory', 'Core', 'CrossPlatform', 'xplat', 'Windows', 'Mac', 'Linux')
 
             # A URL to the license for this module.
             LicenseUri   = 'https://raw.githubusercontent.com/SCRT-HQ/ActiveDirectoryCore/master/LICENSE'

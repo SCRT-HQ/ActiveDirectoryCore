@@ -1,8 +1,18 @@
 class ADObject {
+    # Novell will just ignore any extra properties,
+    # so this will cover most/all default properties as the root.
     hidden static [string[]] $DefaultProperties = @(
-        'name'
-        'objectClass'
-        'objectGUID'
+        'DistinguishedName'
+        'Enabled'
+        'GivenName'
+        'Name'
+        'ObjectClass'
+        'ObjectGUID'
+        'ObjectSID'
+        'SamAccountName'
+        'sn'
+        'UserPrincipalName'
+        'userAccountControl'
     )
 
     hidden static [hashtable] $AttributeSyntax
@@ -17,6 +27,10 @@ class ADObject {
 
     ADObject([object] $entry, [string[]] $Properties) {
         $this.DistinguishedName = $entry.DN
+        $domainDN = 'DC' + $entry.DN.Split('DC',2)[1]
+        if ($script:ActiveDirectoryCore.DomainDN -ne $domainDN) {
+            $script:ActiveDirectoryCore.DomainDN = $domainDN
+        }
 
         foreach ($property in $Properties) {
             try {

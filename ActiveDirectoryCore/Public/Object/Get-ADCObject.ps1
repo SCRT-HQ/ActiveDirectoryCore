@@ -89,7 +89,7 @@ function Get-ADCObject {
         [string]
         $Identity,
 
-        [Parameter(Mandatory, ValueFromPipeline, ValueFromPipelineByPropertyName, Position = 0, ParameterSetName = 'LdapFilter')]
+        [Parameter(Mandatory, ValueFromPipeline, ValueFromPipelineByPropertyName, ParameterSetName = 'LdapFilter')]
         [string]
         $LdapFilter,
 
@@ -100,7 +100,7 @@ function Get-ADCObject {
 
         [Parameter()]
         [string]
-        $SearchBase,
+        $SearchBase = $script:ActiveDirectoryCore.DomainDN,
 
         [Parameter()]
         [SearchScope]
@@ -110,18 +110,18 @@ function Get-ADCObject {
         [pscredential]
         $Credential = $script:ActiveDirectoryCore.Credential,
 
-        [Parameter(Position = 2)]
+        [Parameter()]
         [string]
         $Server = $script:ActiveDirectoryCore.Server,
 
-        [Parameter(Position = 2)]
+        [Parameter()]
         [int]
         $Port = $script:ActiveDirectoryCore.Port
     )
 
     Begin {
         try {
-            $ldap = Connect-ADCServer -Server $Server -Port $Port -Credential $Credential
+            $ldap = Connect-ADCServer @PSBoundParameters
         }
         catch {
             $PSCmdlet.ThrowTerminatingError($_)
@@ -151,22 +151,24 @@ function Get-ADCObject {
             $null,
             $null
         )
-        while ([LdapMessage]$message = $queue.GetResponse()) {
-            if ($message -is [LdapSearchResult]) {
-                Write-Debug ('Converting {0}' -f $message.Entry.DN)
+        if ($null -ne $queue) {
+            while ([LdapMessage]$message = $queue.GetResponse()) {
+                if ($message -is [LdapSearchResult]) {
+                    Write-Debug ('Converting {0}' -f $message.Entry.DN)
 
-                $objectClass = switch ($message.Entry.GetAttribute('objectClass').StringValueArray[-1]) {
-                    'user'     { [ADUser]; break }
-                    'computer' { [ADComputer]; break }
-                    'group'    { [ADGroup]; break }
-                    default    { [ADObject] }
+                    $objectClass = switch ($message.Entry.GetAttribute('objectClass').StringValueArray[-1]) {
+                        'user'     { [ADUser]; break }
+                        'computer' { [ADComputer]; break }
+                        'group'    { [ADGroup]; break }
+                        default    { [ADObject] }
+                    }
+                    $objectClass::new($message.Entry, $Property)
                 }
-                $objectClass::new($message.Entry, $Property)
             }
         }
     }
 
     End {
-        Disconnect-ADCServer
+        Disconnect-ADCServer -Connection $ldap
     }
 }

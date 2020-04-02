@@ -8,11 +8,13 @@ function Disconnect-ADCServer {
     #>
 
     [CmdletBinding()]
-    param ( )
-
-    $ldap = $script:ActiveDirectoryCore.Connection
-
-    if ($ldap -and $ldap.Connected) {
-        $ldap.Disconnect()
+    param (
+        [Parameter(Mandatory,Position = 0)]
+        [AllowNull()]
+        [Novell.Directory.Ldap.LdapConnection]
+        $Connection
+    )
+    if ($null -ne $Connection -and $Connection.Connected) {
+        $Connection.Disconnect()
     }
 }
