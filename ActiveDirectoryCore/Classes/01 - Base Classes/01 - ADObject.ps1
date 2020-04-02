@@ -32,7 +32,7 @@ class ADObject {
             $script:ActiveDirectoryCore.DomainDN = $domainDN
         }
         if ($Properties -ne '*') {
-            foreach ($property in $Properties) {
+            foreach ($property in ($Properties | Sort-Object)) {
                 try {
                     $attribute = $entry.GetAttribute($property)
 
@@ -55,8 +55,7 @@ class ADObject {
             }
         }
         else {
-            $atts = $entry.GetAttributeSet()
-            $atts.GetEnumerator() | ForEach-Object {
+            $entry.GetAttributeSet().GetEnumerator() | Sort-Object {$_.Name} | ForEach-Object {
                 $this.AddNoteProperty((Convert-AttributeCase -Name $_.Name), (Convert-AttributeValue -LdapAttribute $_))
             }
         }
