@@ -12,7 +12,7 @@
     RootModule           = 'ActiveDirectoryCore.psm1'
 
     # Version number of this module.
-    ModuleVersion        = '0.1.0.20200331'
+    ModuleVersion        = '0.1.0'
 
     # Supported PSEditions
     CompatiblePSEditions = @('Desktop','Core')
@@ -95,7 +95,7 @@
         PSData = @{
 
             # Tags applied to this module. These help with module discovery in online galleries.
-            Tags         = @('LDAP','ActiveDirectory','Windows','Mac','Linux')
+            Tags         = @('LDAP','ActiveDirectory','Core','CrossPlatform','xplat','Windows','Mac','Linux')
 
             # A URL to the license for this module.
             LicenseUri   = 'https://raw.githubusercontent.com/SCRT-HQ/ActiveDirectoryCore/master/LICENSE'

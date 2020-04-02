@@ -112,7 +112,7 @@ task Build Clean,{
         Write-BuildLog "Copying contents from files in source folder to PSM1: $($scope)"
         $gciPath = Join-Path $SourceModuleDirectory $scope
         if (Test-Path $gciPath) {
-            Get-ChildItem -Path $gciPath -Filter "*.ps1" -Recurse -File | Sort-Object BaseName | ForEach-Object {
+            Get-ChildItem -Path $gciPath -Filter "*.ps1" -Recurse -File | Sort-Object FullName | ForEach-Object {
                 Write-BuildLog "Working on: $($_.FullName.Replace("$gciPath\",''))"
                 "$(Get-Content $_.FullName -Raw)`n" | Add-Content -Path $psm1 -Encoding UTF8
                 if ($scope -eq 'Public') {

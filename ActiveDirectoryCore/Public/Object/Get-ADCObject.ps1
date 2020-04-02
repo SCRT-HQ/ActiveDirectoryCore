@@ -84,9 +84,9 @@ function Get-ADCObject {
     #>
     [CmdletBinding(DefaultParameterSetName = 'Identity')]
     Param(
-        [Parameter(Mandatory, ValueFromPipeline, ValueFromPipelineByPropertyName, Position = 0, ParameterSetName = 'Identity')]
+        [Parameter(Position = 0, Mandatory, ValueFromPipeline, ValueFromPipelineByPropertyName, ParameterSetName = 'Identity')]
         [Alias('sAMAccountName','DistinguishedName','SID')]
-        [object]
+        [string]
         $Identity,
 
         [Parameter(Mandatory, ValueFromPipeline, ValueFromPipelineByPropertyName, Position = 0, ParameterSetName = 'LdapFilter')]
