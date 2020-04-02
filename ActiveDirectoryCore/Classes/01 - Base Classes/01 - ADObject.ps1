@@ -31,26 +31,33 @@ class ADObject {
         if ($script:ActiveDirectoryCore.DomainDN -ne $domainDN) {
             $script:ActiveDirectoryCore.DomainDN = $domainDN
         }
+        if ($Properties -ne '*') {
+            foreach ($property in $Properties) {
+                try {
+                    $attribute = $entry.GetAttribute($property)
 
-        foreach ($property in $Properties) {
-            try {
-                $attribute = $entry.GetAttribute($property)
-
-                $value = 0
-                if (-not $this.TryConvertValue($property, $attribute, [ref] $value)) {
-                    $value = $attribute.ByteValue
+                    $value = 0
+                    if (-not $this.TryConvertValue($property, $attribute, [ref] $value)) {
+                        $value = $attribute.ByteValue
+                    }
+                } catch [System.Collections.Generic.KeyNotFoundException] {
+                    $value = $null
+                } catch {
+                    throw
                 }
-            } catch [System.Collections.Generic.KeyNotFoundException] {
-                $value = $null
-            } catch {
-                throw
-            }
 
-            if ($this.PSObject.Properties.Item($property)) {
-                $this.$property = $value
+                if ($this.PSObject.Properties.Item($property)) {
+                    $this.$property = $value
+                }
+                else {
+                    $this.AddNoteProperty($property, $value)
+                }
             }
-            else {
-                $this.AddNoteProperty($property, $value)
+        }
+        else {
+            $atts = $entry.GetAttributeSet()
+            $atts.GetEnumerator() | ForEach-Object {
+                $this.AddNoteProperty((Convert-AttributeCase -Name $_.Name), (Convert-AttributeValue -LdapAttribute $_))
             }
         }
     }

@@ -128,12 +128,13 @@ function Get-ADCObject {
         }
 
         # Ensure Property contains only unique entries
-
-        $unique = [System.Collections.Generic.HashSet[string]]::new([System.StringComparer]::OrdinalIgnoreCase)
-        foreach ($name in $Property) {
-            $null = $unique.Add($name)
+        if ($Property -ne '*') {
+            $unique = [System.Collections.Generic.HashSet[string]]::new([System.StringComparer]::OrdinalIgnoreCase)
+            foreach ($name in $Property + [ADObject]::DefaultProperties) {
+                $null = $unique.Add($name)
+            }
+            $Property = $unique
         }
-        $Property = $unique
     }
 
     Process {
