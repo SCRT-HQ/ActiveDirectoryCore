@@ -1,5 +1,5 @@
 [Flags()]
-enum SecurityDescriptorControl : ushort {
+enum DSSDControl : ushort {
     SelfRelative                    = 0x0000
     RMControlValid                  = 0x0001
     SaclProtected                   = 0x0002
