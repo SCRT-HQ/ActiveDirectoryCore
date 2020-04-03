@@ -74,7 +74,7 @@ class SID : IEquatable[Object] {
     }
 
     # Return the security identifier as a byte array.
-    [byte[]] ToBinary() {
+    [byte[]] GetBytes() {
         $sidBytes = [byte[]]::new($this.BinaryLength)
         $sidBytes[0] = $this.revisionLevel
         $sidBytes[1] = $this.subAuthorities.Count

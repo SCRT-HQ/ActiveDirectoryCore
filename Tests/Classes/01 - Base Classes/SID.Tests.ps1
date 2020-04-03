@@ -25,7 +25,7 @@ InModuleScope ActiveDirectoryCore {
         It 'can convert the SID string <SID> to binary' -TestCases $testCases {
             param ( [string]$SID, [string]$SIDBytes )
 
-            [SID]::new($SID).ToBinary() | Should -Be ([Convert]::FromBase64String($SIDBytes))
+            [SID]::new($SID).GetBytes() | Should -Be ([Convert]::FromBase64String($SIDBytes))
         }
 
         It 'can convert the SID bytes to the SID string <SID>' -TestCase $testCases {
