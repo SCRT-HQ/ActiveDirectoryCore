@@ -1,11 +1,62 @@
-function Convert-AttributeCase {
-    [CmdletBinding()]
-    Param(
-        [Parameter(Mandatory, Position = 0)]
-        [string]
-        $Name
-    )
-    Begin {
+class ADCoreUtility {
+    # Utilities / static methods / etc
+    hidden ADCoreUtility() { }
+
+    static [string] ParseFilterFromIdentity([string] $string) {
+        $property = switch ($true) {
+            { $string -match '^.*,DC=.*,DC=.*$' } {
+                'dn'
+            }
+            { $string -match '^.*\@.*\..*$' } {
+                'userPrincipalName'
+            }
+            { $string -as [Guid] } {
+                'objectGUID'
+            }
+            { $string -as [SID] } {
+                'objectSID'
+            }
+            default {
+                $null
+            }
+        }
+        $final = if ($null -eq $property) {
+            '(|(sAMAccountName={0})(name={0}))' -f $string
+        }
+        else {
+            "($property={0})" -f $string
+        }
+        return $final
+    }
+
+    static [object] ConvertAttributeValue([object] $attribute) {
+        $value = switch -Regex ($attribute.Name) {
+            '^objectSid$' {
+                [SID]::new(([byte[]]$attribute.ByteValue))
+            }
+            '^objectGUID$' {
+                [Guid]::new(([byte[]]$attribute.ByteValue))
+            }
+            '^userAccountControl$' {
+                [userAccountControl]$attribute.StringValue
+            }
+            '^objectClass$' {
+                $attribute.StringValues | Select-Object -Last 1
+            }
+            '(certificate|objectGUID|mSMQDigests)' {
+                $attribute.ByteValue
+            }
+            '(^member$|objectClass|memberOf|directReports|msDS-AuthenticatedAtDC|dSCorePropagationData|otherIpPhone|otherTelephone)' {
+                $attribute.StringValues
+            }
+            default {
+                $attribute.StringValue
+            }
+        }
+        return $value
+    }
+
+    static [string] ConvertAttributeName([string] $name) {
         $hash = @{
             AccountExpirationDate                = 'AccountExpirationDate'
             AccountLockoutTime                   = 'AccountLockoutTime'
@@ -102,15 +153,12 @@ function Convert-AttributeCase {
             TrustedToAuthForDelegation           = 'TrustedToAuthForDelegation'
             UseDESKeyOnly                        = 'UseDESKeyOnly'
             UserPrincipalName                    = 'UserPrincipalName'
-
         }
-    }
-    Process {
-        if ($hash.ContainsKey($Name)) {
-            $hash[$Name]
+        if ($hash.ContainsKey($name)) {
+            return $hash[$name]
         }
         else {
-            $Name
+            return $name
         }
     }
 }

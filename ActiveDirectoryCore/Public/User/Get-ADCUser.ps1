@@ -1,4 +1,4 @@
-function Get-ADCComputer {
+function Get-ADCUser {
     <#
     .SYNOPSIS
     Gets a directory user.
@@ -13,6 +13,7 @@ function Get-ADCComputer {
     * GUID (objectGUID)
     * SID (objectSID)
     * SamAccountName
+    * UserPrincipalName
 
     The cmdlet searches the default naming context or partition to find the object. If two or more objects are found, the cmdlet returns a non-terminating error.
 
@@ -81,18 +82,19 @@ function Get-ADCComputer {
     Defaults to 389
 
     .EXAMPLE
-    Get-ADCComputer -Credential (Get-Credential domain\admin) -LdapFilter "(name=someComputerName)" -Server 'dom-dc-1' -SearchBase "DC=domain,DC=com"
+    Get-ADCUser -Credential (Get-Credential domain\admin) -LdapFilter "(sAMAccountName=jshmoe)" -Server 'dom-dc-1' -SearchBase "DC=domain,DC=com"
 
     # This will connect to the domain controller 'dom-dc-1' using credentials for user admin@domain.com and search for a user with a sAMAccountName of 'jshmoe' from the root of the domain.
     #>
     [CmdletBinding(DefaultParameterSetName = 'Identity')]
+    [OutputType('ADUser')]
     Param(
-        [Parameter(Mandatory, ValueFromPipeline, ValueFromPipelineByPropertyName, Position = 0, ParameterSetName = 'Identity')]
-        [Alias('sAMAccountName','DistinguishedName','SID')]
-        [object]
+        [Parameter(Position = 0, Mandatory, ValueFromPipeline, ValueFromPipelineByPropertyName, ParameterSetName = 'Identity')]
+        [Alias('sAMAccountName','DistinguishedName','Sid','UserPrincipalName','Guid')]
+        [string]
         $Identity,
 
-        [Parameter(Mandatory, ValueFromPipeline, ValueFromPipelineByPropertyName, Position = 0, ParameterSetName = 'LdapFilter')]
+        [Parameter(Mandatory, ValueFromPipeline, ValueFromPipelineByPropertyName,ParameterSetName = 'LdapFilter')]
         [string]
         $LdapFilter,
 
@@ -103,13 +105,13 @@ function Get-ADCComputer {
 
         [Parameter()]
         [string]
-        $SearchBase,
+        $SearchBase = $script:ActiveDirectoryCore.DomainDN,
 
         [Parameter()]
         [SearchScope]
         $SearchScope = 'Subtree',
 
-        [Parameter(Position = 1)]
+        [Parameter()]
         [pscredential]
         $Credential = $script:ActiveDirectoryCore.Credential,
 
@@ -125,22 +127,32 @@ function Get-ADCComputer {
     begin {
         try {
             $outBuffer = $null
+            $newparams = $PSBoundParameters
+            if ($newparams.ContainsKey('Identity')) {
+                $newparams.Remove('Identity') | Out-Null
+            }
             if ($PSBoundParameters.TryGetValue('OutBuffer', [ref]$outBuffer)) {
-                $PSBoundParameters['OutBuffer'] = 1
+                $newparams['OutBuffer'] = 1
             }
 
-            $PSBoundParameters['SearchScope'] = $SearchScope
-            $PSBoundParameters['Credential'] = $Credential
-            $PSBoundParameters['Server'] = $Server
-            $PSBoundParameters['Port'] = $Port
+            $newparams['SearchBase'] = $SearchBase
+            $newparams['SearchScope'] = $SearchScope
+            $newparams['Credential'] = $Credential
+            $newparams['Server'] = $Server
+            $newparams['Port'] = $Port
 
-            $PSBoundParameters['Property'] = [ADComputer]::DefaultProperties + $Property
-            if ($LdapFilter) {
-                $PSBoundParameters['LdapFilter'] = '(&(objectClass=user)(objectCategory=person){0})' -f $LdapFilter
+            $newparams['DefaultProperties'] = [ADUser]::DefaultProperties
+            $newparams['LdapFilter'] = switch ($PSCmdlet.ParameterSetName) {
+                LdapFilter {
+                    '(&(objectClass=user)(objectCategory=person){0})' -f $LdapFilter
+                }
+                Identity {
+                    '(&(objectClass=user)(objectCategory=person){0})' -f ([ADCoreUtility]::ParseFilterFromIdentity($Identity))
+                }
             }
 
             $wrappedCmd = Get-Command -Name Get-ADCObject -Module $myInvocation.MyCommand.ModuleName
-            $scriptCmd = { & $wrappedCmd @PSBoundParameters }
+            $scriptCmd = { & $wrappedCmd @newparams }
 
             $steppablePipeline = $scriptCmd.GetSteppablePipeline($myInvocation.CommandOrigin)
             $steppablePipeline.Begin($PSCmdlet)
@@ -163,5 +175,147 @@ function Get-ADCComputer {
         } catch {
             $PSCmdlet.ThrowTerminatingError($_)
         }
+    }
+}
+
+Register-ArgumentCompleter -CommandName 'Get-ADCUser' -ParameterName 'Property' -ScriptBlock {
+    param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameter)
+    @(
+        'AccountExpirationDate'
+        'accountExpires'
+        'AccountLockoutTime'
+        'AccountNotDelegated'
+        'AddedProperties'
+        'adminCount'
+        'AllowReversiblePasswordEncryption'
+        'AuthenticationPolicy'
+        'AuthenticationPolicySilo'
+        'BadLogonCount'
+        'badPasswordTime'
+        'badPwdCount'
+        'c'
+        'CannotChangePassword'
+        'CanonicalName'
+        'Certificates'
+        'City'
+        'CN'
+        'co'
+        'codePage'
+        'comment'
+        'Company'
+        'CompoundIdentitySupported'
+        'Country'
+        'countryCode'
+        'Created'
+        'createTimeStamp'
+        'Deleted'
+        'Department'
+        'Description'
+        'directReports'
+        'DisplayName'
+        'DistinguishedName'
+        'Division'
+        'DoesNotRequirePreAuth'
+        'dSCorePropagationData'
+        'EmailAddress'
+        'EmployeeID'
+        'EmployeeNumber'
+        'Enabled'
+        'Fax'
+        'GivenName'
+        'HomeDirectory'
+        'HomedirRequired'
+        'HomeDrive'
+        'HomePage'
+        'HomePhone'
+        'Initials'
+        'instanceType'
+        'ipPhone'
+        'isDeleted'
+        'KerberosEncryptionType'
+        'l'
+        'LastBadPasswordAttempt'
+        'LastKnownParent'
+        'lastLogon'
+        'LastLogonDate'
+        'lastLogonTimestamp'
+        'LockedOut'
+        'lockoutTime'
+        'logonCount'
+        'LogonWorkstations'
+        'mail'
+        'Manager'
+        'MemberOf'
+        'MNSLogonAccount'
+        'mobile'
+        'MobilePhone'
+        'Modified'
+        'ModifiedProperties'
+        'modifyTimeStamp'
+        'msDS-AuthenticatedAtDC'
+        'msDS-User-Account-Control-Computed'
+        'mSMQDigests'
+        'mSMQSignCertificates'
+        'msTSExpireDate'
+        'msTSLicenseVersion'
+        'msTSLicenseVersion2'
+        'msTSLicenseVersion3'
+        'msTSManagingLS'
+        'Name'
+        'nTSecurityDescriptor'
+        'ObjectCategory'
+        'ObjectClass'
+        'ObjectGUID'
+        'objectSid'
+        'Office'
+        'OfficePhone'
+        'Organization'
+        'otherIpPhone'
+        'OtherName'
+        'otherTelephone'
+        'PasswordExpired'
+        'PasswordLastSet'
+        'PasswordNeverExpires'
+        'PasswordNotRequired'
+        'physicalDeliveryOfficeName'
+        'POBox'
+        'PostalCode'
+        'PrimaryGroup'
+        'primaryGroupID'
+        'PrincipalsAllowedToDelegateToAccount'
+        'ProfilePath'
+        'PropertyCount'
+        'PropertyNames'
+        'ProtectedFromAccidentalDeletion'
+        'pwdLastSet'
+        'RemovedProperties'
+        'SamAccountName'
+        'sAMAccountType'
+        'ScriptPath'
+        'sDRightsEffective'
+        'ServicePrincipalNames'
+        'SID'
+        'SIDHistory'
+        'SmartcardLogonRequired'
+        'sn'
+        'st'
+        'State'
+        'StreetAddress'
+        'Surname'
+        'telephoneNumber'
+        'Title'
+        'TrustedForDelegation'
+        'TrustedToAuthForDelegation'
+        'UseDESKeyOnly'
+        'userAccountControl'
+        'userCertificate'
+        'UserPrincipalName'
+        'uSNChanged'
+        'uSNCreated'
+        'whenChanged'
+        'whenCreated'
+        'wWWHomePage'
+    ) | Where-Object {$_ -like "$wordToComplete*"} | ForEach-Object {
+        [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterValue', $_)
     }
 }

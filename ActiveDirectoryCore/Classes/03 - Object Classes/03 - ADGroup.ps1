@@ -1,8 +1,7 @@
-class ADGroup {
+class ADGroup : ADObject {
     hidden static [string[]] $DefaultProperties = [ADObject]::DefaultProperties + @(
         'SamAccountName'
-        'objectSID'
-        'groupType'
+        'GroupType'
     )
 
     [GroupCategory] $GroupCategory

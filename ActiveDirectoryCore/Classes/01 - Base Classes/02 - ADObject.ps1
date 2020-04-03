@@ -3,16 +3,11 @@ class ADObject {
     # so this will cover most/all default properties as the root.
     hidden static [string[]] $DefaultProperties = @(
         'DistinguishedName'
-        'Enabled'
-        'GivenName'
         'Name'
         'ObjectClass'
         'ObjectGUID'
         'ObjectSID'
-        'SamAccountName'
-        'sn'
         'UserPrincipalName'
-        'userAccountControl'
     )
 
     hidden static [hashtable] $AttributeSyntax
@@ -23,11 +18,11 @@ class ADObject {
     [string[]] $ObjectClass
     [GUID]     $objectGUID
 
-    hidden ADObject() {}
+    hidden ADObject() { }
 
     ADObject([object] $entry, [string[]] $Properties) {
         $this.DistinguishedName = $entry.DN
-        $domainDN = 'DC' + $entry.DN.Split('DC',2)[1]
+        $domainDN = 'DC' + $entry.DN.Split('DC', 2)[1]
         if ($script:ActiveDirectoryCore.DomainDN -ne $domainDN) {
             $script:ActiveDirectoryCore.DomainDN = $domainDN
         }
@@ -40,9 +35,11 @@ class ADObject {
                     if (-not $this.TryConvertValue($property, $attribute, [ref] $value)) {
                         $value = $attribute.ByteValue
                     }
-                } catch [System.Collections.Generic.KeyNotFoundException] {
+                }
+                catch [System.Collections.Generic.KeyNotFoundException] {
                     $value = $null
-                } catch {
+                }
+                catch {
                     throw
                 }
 
@@ -55,8 +52,35 @@ class ADObject {
             }
         }
         else {
-            $entry.GetAttributeSet().GetEnumerator() | Sort-Object {$_.Name} | ForEach-Object {
-                $this.AddNoteProperty((Convert-AttributeCase -Name $_.Name), (Convert-AttributeValue -LdapAttribute $_))
+            foreach ($attribute in ($entry.GetAttributeSet().GetEnumerator() | Sort-Object { $_.Name })) {
+                <#
+                $this.AddNoteProperty(
+                    [ADCoreUtility]::ConvertAttributeName($attribute.Name),
+                    [ADCoreUtility]::ConvertAttributeValue($attribute)
+                )
+                #>
+                try {
+                    $value = 0
+                    if (-not $this.TryConvertValue($attribute.Name, $attribute, [ref] $value)) {
+                        $value = $attribute.ByteValue
+                    }
+                }
+                catch [System.Collections.Generic.KeyNotFoundException] {
+                    $value = $null
+                }
+                catch {
+                    throw
+                }
+                $newProperty = [ADCoreUtility]::ConvertAttributeName($attribute.Name)
+                if ($this.PSObject.Properties.Item($newProperty)) {
+                    $this.$newProperty = $value
+                }
+                else {
+                    $this.AddNoteProperty($newProperty, $value)
+                    if ($this.PSObject.Properties.Item($attribute.Name)) {
+                        $this.AddNoteProperty($attribute.Name, $value)
+                    }
+                }
             }
         }
     }

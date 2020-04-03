@@ -83,9 +83,10 @@ function Get-ADCObject {
     # This will connect to the domain controller 'dom-dc-1' using credentials for user admin@domain.com and search for a user with a sAMAccountName of 'jshmoe' from the root of the domain.
     #>
     [CmdletBinding(DefaultParameterSetName = 'Identity')]
+    [OutputType('ADObject')]
     Param(
         [Parameter(Position = 0, Mandatory, ValueFromPipeline, ValueFromPipelineByPropertyName, ParameterSetName = 'Identity')]
-        [Alias('sAMAccountName','DistinguishedName','SID')]
+        [Alias('sAMAccountName','DistinguishedName','Sid','UserPrincipalName','Guid')]
         [string]
         $Identity,
 
@@ -116,7 +117,11 @@ function Get-ADCObject {
 
         [Parameter()]
         [int]
-        $Port = $script:ActiveDirectoryCore.Port
+        $Port = $script:ActiveDirectoryCore.Port,
+
+        [Parameter(DontShow)]
+        [string[]]
+        $DefaultProperties = [ADObject]::DefaultProperties
     )
 
     Begin {
@@ -130,7 +135,7 @@ function Get-ADCObject {
         # Ensure Property contains only unique entries
         if ($Property -ne '*') {
             $unique = [System.Collections.Generic.HashSet[string]]::new([System.StringComparer]::OrdinalIgnoreCase)
-            foreach ($name in $Property + [ADObject]::DefaultProperties) {
+            foreach ($name in $Property + $DefaultProperties) {
                 $null = $unique.Add($name)
             }
             $Property = $unique
