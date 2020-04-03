@@ -1,11 +1,15 @@
 class Ace {
-    [AceType]  $AceType
-    [AceFlags] $AceFlags
-    [int]      $AccessMask
-    [Sid]      $IdentityReference
+    [AceType]                                        $AceType
+    [System.DirectoryServices.ActiveDirectoryRights] $ActiveDirectoryRights
+    [Sid]                                            $IdentityReference
+    [System.Security.AccessControl.InheritanceFlags] $InheritanceFlags
+    [bool]                                           $IsInherited
+    [System.Security.AccessControl.PropagationFlags] $PropagationFlags
 
-    hidden [ushort] $aceSize
-    hidden [byte[]] $otherData
+    hidden [AceFlags] $aceFlags
+    hidden [int]      $accessMask
+    hidden [ushort]   $aceSize
+    hidden [byte[]]   $otherData
 
     hidden Ace(
         [AceType]            $aceType,
@@ -14,9 +18,13 @@ class Ace {
         [EndianBinaryReader] $binaryReader
     ) {
         $this.AceType = $aceType
-        $this.AceFlags = $aceFlags
+        $this.aceFlags = $aceFlags
         $this.aceSize = $aceSize
-        $this.AccessMask = $binaryReader.ReadUInt32()
+        $this.accessMask = $binaryReader.ReadUInt32()
+        $this.ActiveDirectoryRights = $this.accessMask
+        $this.InheritanceFlags = $this.aceFlags -band 0x03
+        $this.IsInherited = $this.aceFlags.HasFlag([AceFlags]::Inherited)
+        $this.PropagationFlags = ($this.aceFlags -band 0x0C) -as [int] -shr 2
 
         $this.ReadAce($binaryReader)
     }
