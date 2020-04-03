@@ -1,29 +1,34 @@
 class SecurityDescriptor {
-    [DSSDControl] $Control
     [SID]         $Owner
     [SID]         $Group
     [Ace[]]       $Audit
     [Ace[]]       $Access
+    [bool]        $AreAccessRulesProtected
+    [bool]        $AreAuditRulesProtected
 
-    hidden [byte] $revision
-    hidden [byte] $sbz1
-    hidden [uint] $offsetOwner
-    hidden [uint] $offsetGroup
-    hidden [uint] $offsetSacl
-    hidden [uint] $offsetDacl
-    hidden [Acl]  $dacl
-    hidden [Acl]  $sacl
+    hidden [DSSDControl] $control
+    hidden [byte]        $revision
+    hidden [byte]        $sbz1
+    hidden [uint]        $offsetOwner
+    hidden [uint]        $offsetGroup
+    hidden [uint]        $offsetSacl
+    hidden [uint]        $offsetDacl
+    hidden [Acl]         $dacl
+    hidden [Acl]         $sacl
 
     SecurityDescriptor([byte[]] $securityDescriptorBytes) {
         $binaryReader = [EndianBinaryReader][System.IO.MemoryStream]$securityDescriptorBytes
 
         $this.revision = $binaryReader.ReadByte()
         $this.sbz1 = $binaryReader.ReadByte()
-        $this.Control = $binaryReader.ReadUInt16($true)
+        $this.control = $binaryReader.ReadUInt16($true)
         $this.offsetOwner = $binaryReader.ReadUInt32()
         $this.offsetGroup = $binaryReader.ReadUInt32()
         $this.offsetSacl = $binaryReader.ReadUInt32()
         $this.offsetDacl = $binaryReader.ReadUInt32()
+
+        $this.AreAccessRulesProtected = $this.control.HasFlag([DSSDControl]::DaclProtected)
+        $this.AreAuditRulesProtected = $this.control.HasFlag([DSSDControl]::SaclProtected)
 
         if ($this.offsetOwner -gt 0) {
             $binaryReader.BaseStream.Seek($this.offsetOwner, 'Begin')
