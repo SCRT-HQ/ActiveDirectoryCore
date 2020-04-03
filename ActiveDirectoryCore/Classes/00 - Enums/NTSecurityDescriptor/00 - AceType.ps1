@@ -1,0 +1,20 @@
+enum AceType : byte {
+    Allow
+    Deny
+    Audit
+    Alarm
+    AllowCompound
+    AllowObject
+    DenyObject
+    AuditObject
+    AlarmObject
+    AllowCallback
+    AllowCallbackObject
+    AuditCallback
+    AlarmCallback
+    AuditCallbackObject
+    AlarmCallbackObject
+    MandatoryLabel
+    ResourceAttribute
+    ScopedPolicyID
+}

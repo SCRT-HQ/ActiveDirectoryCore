@@ -1,5 +1,5 @@
 #region:TestFileHeader
-$projectRoot = $PSScriptRoot.Substring(0, $PSScriptRoot.IndexOf('\Tests'))
+$projectRoot = $PSScriptRoot.Substring(0, $PSScriptRoot.IndexOf(([IO.Path]::DirectorySeparatorChar + "Tests")))
 $moduleName = Split-Path $projectRoot -Leaf
 $module = Join-Path -Path $projectRoot -ChildPath "BuildOutput\$moduleName\*\$moduleName.psd1" | Resolve-Path
 
@@ -25,7 +25,7 @@ InModuleScope ActiveDirectoryCore {
         It 'can convert the SID string <SID> to binary' -TestCases $testCases {
             param ( [string]$SID, [string]$SIDBytes )
 
-            [SID]::new($SID).GetBinaryForm() | Should -Be ([Convert]::FromBase64String($SIDBytes))
+            [SID]::new($SID).GetBytes() | Should -Be ([Convert]::FromBase64String($SIDBytes))
         }
 
         It 'can convert the SID bytes to the SID string <SID>' -TestCase $testCases {
@@ -42,6 +42,17 @@ InModuleScope ActiveDirectoryCore {
             }
             else {
                 { [System.Security.Principal.SecurityIdentifier][Sid]::new($SID) } | Should -Not -Throw
+            }
+        }
+
+        It 'can cast a SecurityIdentifier <SID> to SID on the Windows platform' -TestCases $testCases  {
+            param ( [string]$SID )
+
+            if ($PSVersionTable.Platform -ne 'Win32NT') {
+                Set-ItResult -Inconclusive -Because 'This test is only supported on the Windows platform'
+            }
+            else {
+                { [SID][System.Security.Principal.SecurityIdentifier]$SID } | Should -Not -Throw
             }
         }
 
