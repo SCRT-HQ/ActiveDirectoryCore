@@ -135,6 +135,10 @@ class ADObject {
                         }
                     }
                 }
+                'NTSecDesc' {
+                    $converted.Value = [SecurityDescriptor]::new($attribute.ByteValue)
+                    return $true
+                }
                 { $_ -in 'Unicode', 'OID' } {
                     $converted.Value = foreach ($string in $attribute.StringValueArray) {
                         $string
