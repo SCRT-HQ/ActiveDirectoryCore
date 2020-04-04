@@ -1,4 +1,4 @@
-class Sid : IEquatable[Object] {
+class Sid : SecurityPrincipal, IEquatable[Object] {
     [int]    $BinaryLength
     [string] $AccountDomainSid
     [string] $Value

@@ -1,7 +1,7 @@
 class Ace {
     [AceType]                                        $AceType
     [System.DirectoryServices.ActiveDirectoryRights] $ActiveDirectoryRights
-    [Sid]                                            $IdentityReference
+    [SecurityPrincipal]                              $IdentityReference
     [System.Security.AccessControl.InheritanceFlags] $InheritanceFlags
     [bool]                                           $IsInherited
     [System.Security.AccessControl.PropagationFlags] $PropagationFlags

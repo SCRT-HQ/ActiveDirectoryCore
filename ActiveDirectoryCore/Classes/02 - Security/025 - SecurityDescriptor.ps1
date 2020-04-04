@@ -1,10 +1,10 @@
 class SecurityDescriptor {
-    [SID]         $Owner
-    [SID]         $Group
-    [Ace[]]       $Audit
-    [Ace[]]       $Access
-    [bool]        $AreAccessRulesProtected
-    [bool]        $AreAuditRulesProtected
+    [SecurityPrincipal] $Owner
+    [SecurityPrincipal] $Group
+    [Ace[]]             $Audit
+    [Ace[]]             $Access
+    [bool]              $AreAccessRulesProtected
+    [bool]              $AreAuditRulesProtected
 
     hidden [DSSDControl] $control
     hidden [byte]        $revision
