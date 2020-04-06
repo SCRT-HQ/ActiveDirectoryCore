@@ -152,14 +152,15 @@ task Build Clean,{
 
     # Update FunctionsToExport and AliasesToExport on manifest
     $params = @{
-        Path = $TargetManifestPath
         FunctionsToExport = ($functionsToExport | Sort-Object)
     }
     if ($aliasesToExport.Count) {
         $params['AliasesToExport'] = ($aliasesToExport | Sort-Object)
     }
     Write-BuildLog "Updating target manifest file with exports"
-    Update-ModuleManifest @params
+    $params.GetEnumerator() | ForEach-Object {
+        Update-Metadata -Path $TargetManifestPath -PropertyName $_.Key -Value $_.Value
+    }
 
     if ($ManifestVersion -ne $NextModuleVersion) {
         Write-BuildLog "Reverting bumped source manifest version from '$NextModuleVersion' to '$ManifestVersion'"

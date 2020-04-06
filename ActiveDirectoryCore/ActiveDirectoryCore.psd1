@@ -21,13 +21,13 @@
     GUID                 = 'f848bcaa-2804-48b9-bfc0-07be8b18a220'
 
     # Author of this module
-    Author               = 'Nate Ferrell'
+    Author               = 'Nate Ferrell, Chris Dent, Mathias Jessen'
 
     # Company or vendor of this module
     CompanyName          = 'SCRT HQ'
 
     # Copyright statement for this module
-    Copyright            = '(c) 2020-2020 Nate Ferrell. All rights reserved.'
+    Copyright            = '(c) 2020-2020 SCRT HQ. All rights reserved.'
 
     # Description of the functionality provided by this module
     Description          = "ActiveDirectoryCore is a cross-platform PowerShell module for Active Directory and LDAP administration."
@@ -54,7 +54,7 @@
     RequiredModules      = @(@{ModuleName = "Configuration"; ModuleVersion = "1.3.1" })
 
     # Assemblies that must be loaded prior to importing this module
-    # RequiredAssemblies = @()
+    RequiredAssemblies = @('Novell.Directory.Ldap.NETStandard.dll')
 
     # Script files (.ps1) that are run in the caller's environment prior to importing this module.
     # ScriptsToProcess = @()
